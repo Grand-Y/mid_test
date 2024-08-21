@@ -1,0 +1,6 @@
+midware: cyber
+
+workspace: '/apollo/cyber/a_mid_test'
+data_path: '/apollo/cyber/a_mid_test/data/camera/800-1/front'
+log_path: '/apollo/cyber/a_mid_test/cyber/logs'
+output_path: '/apollo/cyber/a_mid_test/cyber/output'

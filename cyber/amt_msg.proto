@@ -1,0 +1,53 @@
+syntax = "proto2";
+
+package apollo.cyber.a_mid_test.cyber;
+message OcvMat {
+    required int32 rows = 1;
+    required int32 cols = 2;
+    required int32 elt_type = 3;
+    required int32 elt_size = 4;
+    required bytes mat_data = 5;
+}
+message Frame{
+required uint64 timestamp = 1;
+required OcvMat mat = 2;
+}
+message Point{
+required uint32 x = 1;
+required uint32 y = 2;
+}
+message LaneResult{
+required uint64 timestamp = 1;
+optional Point left1 = 2;
+optional Point left2 = 3;
+optional Point right1 = 4;
+optional Point right2 = 5;
+}
+message Rect2dBase{
+required double x = 1;
+required double y = 2;
+required double height = 3;
+required double width = 4;
+}
+message TrackResult{
+required uint64 timestamp = 1;
+optional Rect2dBase trackresult= 2;
+}
+message Bbox{
+required uint32 x = 1;
+required uint32 y = 2;
+required uint32 w = 3;
+required uint32 h = 4;
+required float prob = 5;
+required uint32 obj_id = 6;
+}
+message YoloResult{
+required uint64 timestamp = 1;
+repeated Bbox bboxresult= 2;
+required OcvMat mat = 3;
+}
+
+message FusionResult{
+required uint64 timestamp = 1;
+required string fusionresult = 2;
+}
