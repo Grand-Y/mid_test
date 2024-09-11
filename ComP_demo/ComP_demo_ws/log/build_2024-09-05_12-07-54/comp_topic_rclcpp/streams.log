@@ -1,0 +1,341 @@
+[0.026s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[0.255s] [  1%] Built target comp_topic_rclcpp__cpp
+[0.358s] [ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[0.496s] [ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[0.668s] [ 13%] Built target CameraTimer
+[0.763s] [ 22%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[0.885s] [ 32%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[1.041s] [ 41%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[1.117s] [ 51%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[1.193s] [ 60%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[1.279s] [ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+[2.043s] running egg_info
+[2.043s] writing comp_topic_rclcpp.egg-info/PKG-INFO
+[2.051s] writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt
+[2.051s] writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt
+[2.059s] reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[2.065s] writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[2.167s] [ 70%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg
+[2.211s] [35m[1mConsolidate compiler generated dependencies of target Final[0m
+[2.258s] [ 71%] [32mBuilding CXX object CMakeFiles/Final.dir/src/Final.cpp.o[0m
+[16.057s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.057s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.057s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.057s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.059s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.059s]                  from [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:1[m[K:
+[16.059s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:[m[K In member function ‘[01m[Kvoid Final::tracker_result_callback(comp_topic_rclcpp::msg::TrackerResult_<std::allocator<void> >::SharedPtr)[m[K’:
+[16.059s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:86:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.060s]    86 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Final节点订阅到 Tracker 的追踪结果: x = %.2f, y = %.2f, width = %.2f, height = %.2f"[m[K);
+[16.060s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.060s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:86:85:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.060s]    86 |  "Final节点订阅到 Tracker 的追踪结果: x = [01;36m[K%.2f[m[K, y = %.2f, width = %.2f, height = %.2f");
+[16.060s]       |                                           [01;36m[K~~~^[m[K
+[16.060s]       |                                              [01;36m[K|[m[K
+[16.061s]       |                                              [01;36m[Kdouble[m[K
+[16.061s] 
+[16.062s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.064s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.064s]                  from [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:1[m[K:
+[16.064s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:86:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.064s]    86 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Final节点订阅到 Tracker 的追踪结果: x = %.2f, y = %.2f, width = %.2f, height = %.2f"[m[K);
+[16.064s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.065s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:86:95:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.065s]    86 |  订阅到 Tracker 的追踪结果: x = %.2f, y = [01;36m[K%.2f[m[K, width = %.2f, height = %.2f");
+[16.073s]       |                                           [01;36m[K~~~^[m[K
+[16.073s]       |                                              [01;36m[K|[m[K
+[16.073s]       |                                              [01;36m[Kdouble[m[K
+[16.074s] 
+[16.074s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.076s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.076s]                  from [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:1[m[K:
+[16.076s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:86:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.082s]    86 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Final节点订阅到 Tracker 的追踪结果: x = %.2f, y = %.2f, width = %.2f, height = %.2f"[m[K);
+[16.082s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.082s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:86:109:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.082s]    86 | r 的追踪结果: x = %.2f, y = %.2f, width = [01;36m[K%.2f[m[K, height = %.2f");
+[16.085s]       |                                           [01;36m[K~~~^[m[K
+[16.086s]       |                                              [01;36m[K|[m[K
+[16.086s]       |                                              [01;36m[Kdouble[m[K
+[16.086s] 
+[16.086s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.086s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.089s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.090s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.091s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.096s]                  from [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:1[m[K:
+[16.096s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:86:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.097s]    86 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Final节点订阅到 Tracker 的追踪结果: x = %.2f, y = %.2f, width = %.2f, height = %.2f"[m[K);
+[16.097s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.097s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Final.cpp:86:124:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.103s]    86 | 结果: x = %.2f, y = %.2f, width = %.2f, height = [01;36m[K%.2f[m[K");
+[16.103s]       |                                                  [01;36m[K~~~^[m[K
+[16.103s]       |                                                     [01;36m[K|[m[K
+[16.103s]       |                                                     [01;36m[Kdouble[m[K
+[16.104s] 
+[57.526s] [ 72%] [32m[1mLinking CXX executable Final[0m
+[60.587s] [ 72%] Built target Final
+[60.652s] [35m[1mConsolidate compiler generated dependencies of target Tracker[0m
+[60.728s] [ 75%] Built target Tracker
+[60.789s] [35m[1mConsolidate compiler generated dependencies of target Lane[0m
+[60.862s] [ 79%] Built target Lane
+[60.919s] [35m[1mConsolidate compiler generated dependencies of target Yolo[0m
+[60.979s] [ 82%] Built target Yolo
+[61.094s] [ 82%] Built target comp_topic_rclcpp
+[61.193s] [ 83%] Built target comp_topic_rclcpp__py
+[61.259s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_generator_py[0m
+[61.341s] [ 91%] Built target comp_topic_rclcpp__rosidl_generator_py
+[61.438s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c__pyext[0m
+[61.495s] [ 94%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c__pyext
+[61.552s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_introspection_c__pyext[0m
+[61.626s] [ 97%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c__pyext
+[61.694s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_c__pyext[0m
+[61.734s] [100%] Built target comp_topic_rclcpp__rosidl_typesupport_c__pyext
+[61.812s] Invoked command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[62.560s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp
+[62.594s] -- Install configuration: ""
+[62.596s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/ament_index/resource_index/rosidl_interfaces/comp_topic_rclcpp
+[62.598s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp
+[62.598s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg
+[62.600s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/point_detect.h
+[62.600s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/rosidl_generator_c__visibility_control.h
+[62.600s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail
+[62.615s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__struct.h
+[62.616s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__functions.c
+[62.616s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__functions.h
+[62.617s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__type_support.h
+[62.617s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__struct.h
+[62.617s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__functions.c
+[62.617s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__type_support.h
+[62.617s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__functions.h
+[62.618s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__functions.h
+[62.618s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__struct.h
+[62.618s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__functions.h
+[62.618s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__functions.c
+[62.618s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__type_support.h
+[62.619s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__type_support.h
+[62.619s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__type_support.h
+[62.619s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__functions.c
+[62.619s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__struct.h
+[62.619s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__functions.c
+[62.625s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__functions.h
+[62.625s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__functions.h
+[62.625s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__struct.h
+[62.626s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__type_support.h
+[62.628s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__struct.h
+[62.628s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__functions.c
+[62.628s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/yolo_result.h
+[62.628s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/lane_result.h
+[62.628s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/lines_result.h
+[62.629s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/yolo_piece.h
+[62.629s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/tracker_result.h
+[62.629s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/library_path.sh
+[62.629s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/library_path.dsv
+[62.629s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_generator_c.so
+[62.630s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp
+[62.630s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg
+[62.630s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail
+[62.630s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__rosidl_typesupport_fastrtps_c.h
+[62.630s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__rosidl_typesupport_fastrtps_c.h
+[62.630s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__rosidl_typesupport_fastrtps_c.h
+[62.631s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__rosidl_typesupport_fastrtps_c.h
+[62.631s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__rosidl_typesupport_fastrtps_c.h
+[62.631s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__rosidl_typesupport_fastrtps_c.h
+[62.631s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[62.631s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_fastrtps_c.so
+[62.632s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp
+[62.632s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg
+[62.632s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/tracker_result.hpp
+[62.635s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail
+[62.635s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__builder.hpp
+[62.638s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__struct.hpp
+[62.638s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__traits.hpp
+[62.639s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__struct.hpp
+[62.639s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__traits.hpp
+[62.639s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__builder.hpp
+[62.639s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__struct.hpp
+[62.639s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__struct.hpp
+[62.639s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__traits.hpp
+[62.640s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__traits.hpp
+[62.640s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__builder.hpp
+[62.640s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__traits.hpp
+[62.640s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__builder.hpp
+[62.641s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__struct.hpp
+[62.648s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__struct.hpp
+[62.648s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__builder.hpp
+[62.648s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__traits.hpp
+[62.648s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__builder.hpp
+[62.649s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/lines_result.hpp
+[62.651s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/yolo_result.hpp
+[62.651s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/yolo_piece.hpp
+[62.651s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/lane_result.hpp
+[62.651s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/point_detect.hpp
+[62.652s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp
+[62.652s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg
+[62.652s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail
+[62.652s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__rosidl_typesupport_fastrtps_cpp.hpp
+[62.652s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__rosidl_typesupport_fastrtps_cpp.hpp
+[62.653s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/dds_fastrtps
+[62.653s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__rosidl_typesupport_fastrtps_cpp.hpp
+[62.653s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__rosidl_typesupport_fastrtps_cpp.hpp
+[62.655s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__rosidl_typesupport_fastrtps_cpp.hpp
+[62.659s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__rosidl_typesupport_fastrtps_cpp.hpp
+[62.660s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[62.660s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.so
+[62.660s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp
+[62.660s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg
+[62.660s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail
+[62.661s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__type_support.c
+[62.661s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__rosidl_typesupport_introspection_c.h
+[62.665s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__rosidl_typesupport_introspection_c.h
+[62.667s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__rosidl_typesupport_introspection_c.h
+[62.667s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__type_support.c
+[62.667s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__type_support.c
+[62.668s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__type_support.c
+[62.668s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__type_support.c
+[62.668s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__rosidl_typesupport_introspection_c.h
+[62.668s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__type_support.c
+[62.668s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__rosidl_typesupport_introspection_c.h
+[62.668s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__rosidl_typesupport_introspection_c.h
+[62.669s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[62.669s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_introspection_c.so
+[62.669s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_c.so
+[62.669s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp
+[62.672s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg
+[62.672s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail
+[62.673s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__rosidl_typesupport_introspection_cpp.hpp
+[62.674s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__type_support.cpp
+[62.674s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__rosidl_typesupport_introspection_cpp.hpp
+[62.674s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__type_support.cpp
+[62.674s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__rosidl_typesupport_introspection_cpp.hpp
+[62.675s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__rosidl_typesupport_introspection_cpp.hpp
+[62.675s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__rosidl_typesupport_introspection_cpp.hpp
+[62.675s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lane_result__type_support.cpp
+[62.675s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__rosidl_typesupport_introspection_cpp.hpp
+[62.676s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/lines_result__type_support.cpp
+[62.676s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/point_detect__type_support.cpp
+[62.676s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__type_support.cpp
+[62.676s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_introspection_cpp.so
+[62.676s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_cpp.so
+[62.676s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/pythonpath.sh
+[62.677s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/pythonpath.dsv
+[62.677s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info
+[62.677s] -- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info/PKG-INFO
+[62.677s] -- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info/SOURCES.txt
+[62.677s] -- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info/dependency_links.txt
+[62.678s] -- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info/top_level.txt
+[62.678s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp
+[62.678s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/_comp_topic_rclcpp_s.ep.rosidl_typesupport_fastrtps_c.c
+[62.678s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/libcomp_topic_rclcpp__rosidl_generator_py.so
+[62.679s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[62.679s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/__init__.py
+[62.679s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[62.679s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/_comp_topic_rclcpp_s.ep.rosidl_typesupport_c.c
+[62.679s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg
+[62.680s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_yolo_piece_s.c
+[62.680s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_lines_result_s.c
+[62.680s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_lines_result.py
+[62.680s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/__init__.py
+[62.680s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_tracker_result.py
+[62.680s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_lane_result_s.c
+[62.681s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_point_detect_s.c
+[62.681s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_point_detect.py
+[62.681s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_yolo_piece.py
+[62.681s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_lane_result.py
+[62.681s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_tracker_result_s.c
+[62.682s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_yolo_result_s.c
+[62.682s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_yolo_result.py
+[62.682s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/_comp_topic_rclcpp_s.ep.rosidl_typesupport_introspection_c.c
+[62.682s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[62.862s] Listing '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp'...
+[62.862s] Listing '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg'...
+[62.885s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[62.888s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[62.891s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[62.893s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_generator_py.so
+[62.895s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/YoloPiece.idl
+[62.897s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/YoloResult.idl
+[62.898s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/TrackerResult.idl
+[62.899s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/LaneResult.idl
+[62.907s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/PointDetect.idl
+[62.907s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/YoloPiece.msg
+[62.907s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/YoloResult.msg
+[62.908s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/TrackerResult.msg
+[62.908s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/LaneResult.msg
+[62.908s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/PointDetect.msg
+[62.912s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/CameraTimer
+[62.915s] -- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Final
+[62.971s] -- Set runtime path of "/home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Final" to ""
+[62.974s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Tracker
+[62.976s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Lane
+[62.978s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Yolo
+[62.979s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/comp_topic_rclcpp
+[62.980s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/comp_topic_rclcpp
+[62.981s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/ament_prefix_path.sh
+[62.981s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/ament_prefix_path.dsv
+[62.995s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/path.sh
+[62.997s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/path.dsv
+[62.998s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/local_setup.bash
+[62.998s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/local_setup.sh
+[62.998s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/local_setup.zsh
+[63.000s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/local_setup.dsv
+[63.001s] -- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/package.dsv
+[63.001s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/ament_index/resource_index/packages/comp_topic_rclcpp
+[63.003s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_cExport.cmake
+[63.003s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_cExport-noconfig.cmake
+[63.006s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_typesupport_fastrtps_cExport.cmake
+[63.006s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[63.011s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_cppExport.cmake
+[63.013s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_typesupport_fastrtps_cppExport.cmake
+[63.013s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[63.015s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_introspection_cExport.cmake
+[63.017s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[63.022s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_cExport.cmake
+[63.022s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_cExport-noconfig.cmake
+[63.024s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_introspection_cppExport.cmake
+[63.024s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[63.026s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_cppExport.cmake
+[63.026s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_cppExport-noconfig.cmake
+[63.028s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_pyExport.cmake
+[63.029s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_pyExport-noconfig.cmake
+[63.030s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/rosidl_cmake-extras.cmake
+[63.032s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.032s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.033s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/ament_cmake_export_libraries-extras.cmake
+[63.033s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/ament_cmake_export_targets-extras.cmake
+[63.034s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[63.034s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[63.035s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcppConfig.cmake
+[63.035s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcppConfig-version.cmake
+[63.047s] -- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/package.xml
+[63.057s] Invoked command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp

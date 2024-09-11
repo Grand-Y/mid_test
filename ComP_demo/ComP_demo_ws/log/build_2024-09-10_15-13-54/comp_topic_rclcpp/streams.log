@@ -1,0 +1,47 @@
+[0.039s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[0.212s] [  1%] Built target comp_topic_rclcpp__cpp
+[0.232s] [ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[0.358s] [ 13%] Built target CameraTimer
+[0.403s] [ 13%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[0.532s] [ 22%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[0.569s] [ 32%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[0.669s] [ 41%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[0.722s] [ 51%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[0.808s] [ 60%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[0.894s] [ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+[1.021s] [35m[1mConsolidate compiler generated dependencies of target Final[0m
+[1.146s] [ 71%] [32mBuilding CXX object CMakeFiles/Final.dir/src/Final.cpp.o[0m
+[2.481s] running egg_info
+[2.484s] writing comp_topic_rclcpp.egg-info/PKG-INFO
+[2.489s] writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt
+[2.492s] writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt
+[2.511s] reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[2.519s] writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[2.648s] [ 71%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg
+[2.727s] [ 74%] Built target Tracker
+[2.872s] [ 75%] [32mBuilding CXX object CMakeFiles/Lane.dir/src/Lane.cpp.o[0m
+[24.616s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:31:26:[m[K [01;31m[Kerror: [m[K‘[01m[Klog_path_env[m[K’ is not a type
+[24.617s]    31 |     std::string log_path([01;31m[Klog_path_env[m[K);
+[24.617s]       |                          [01;31m[K^~~~~~~~~~~~[m[K
+[25.148s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:[m[K In member function ‘[01m[Kvoid Lane::initialize_log_file(const string&)[m[K’:
+[25.149s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:36:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::string Lane::log_path(int)[m[K’
+[25.149s]    36 |         std::string log_file = [01;31m[Klog_path + log_name[m[K + ".log";
+[25.149s]       |                                [01;31m[K~~~~~~~~~^~~~~~~~~~[m[K
+[25.151s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:31:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.151s]    31 |     std::string [01;36m[Klog_path[m[K(log_path_env);
+[25.152s]       |                 [01;36m[K^~~~~~~~[m[K
+[25.169s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:[m[K In member function ‘[01m[Kvoid Lane::log_tra_latency(const rclcpp::Time&)[m[K’:
+[25.169s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:54:32:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::string Lane::log_path(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[25.169s]    54 |         std::string log_file = [01;31m[Klog_path[m[K + "/tra_Lane_CameraTimerImage.log";
+[25.169s]       |                                [01;31m[K^~~~~~~~[m[K
+[25.170s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:[m[K In member function ‘[01m[Kvoid Lane::log_cal_latency(const uint64_t&)[m[K’:
+[25.170s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:72:32:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::string Lane::log_path(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[25.170s]    72 |         std::string log_file = [01;31m[Klog_path[m[K + "/cal_Lane.log";
+[25.170s]       |                                [01;31m[K^~~~~~~~[m[K
+[46.247s] gmake[2]: *** [CMakeFiles/Lane.dir/build.make:76: CMakeFiles/Lane.dir/src/Lane.cpp.o] Error 1
+[46.256s] gmake[1]: *** [CMakeFiles/Makefile2:681: CMakeFiles/Lane.dir/all] Error 2
+[46.256s] gmake[1]: *** Waiting for unfinished jobs....
+[73.628s] [ 77%] [32m[1mLinking CXX executable Final[0m
+[76.656s] [ 77%] Built target Final
+[76.660s] gmake: *** [Makefile:146: all] Error 2
+[76.674s] Invoked command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2

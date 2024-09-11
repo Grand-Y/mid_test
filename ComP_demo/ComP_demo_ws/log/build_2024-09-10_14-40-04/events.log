@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.000460] (comp_topic_rclcpp) JobQueued: {'identifier': 'comp_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.001249] (comp_topic_rclcpp) JobStarted: {'identifier': 'comp_topic_rclcpp'}
+[0.061181] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'cmake'}
+[0.067856] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'build'}
+[0.068598] (comp_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.204.2 64121 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('LOG_PATH', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/logs'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('CONDA_SHLVL', '2'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-33f349b7-e937-4fe0-9b00-cf1e396be44f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DATA_PATH', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/a.jpg'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('OUTPUT_PATH', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/output'), ('WORKSPACE', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/miniconda3/envs/ros2/bin:/home/ros/miniconda3/condabin:/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('CONDA_PREFIX_1', '/home/ros/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0dbcad9fb0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ros/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp'), ('CONDA_EXE', '/home/ros/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.204.2 64121 192.168.204.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/ros/miniconda3/envs/ros2'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098501] (-) TimerEvent: {}
+[0.199241] (-) TimerEvent: {}
+[0.300059] (-) TimerEvent: {}
+[0.401952] (-) TimerEvent: {}
+[0.431404] (comp_topic_rclcpp) StdoutLine: {'line': b'[  1%] Built target comp_topic_rclcpp__cpp\n'}
+[0.504803] (-) TimerEvent: {}
+[0.508963] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c\n'}
+[0.605056] (-) TimerEvent: {}
+[0.665820] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp\n'}
+[0.705872] (-) TimerEvent: {}
+[0.725727] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CameraTimer\x1b[0m\n'}
+[0.806443] (-) TimerEvent: {}
+[0.809970] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/CameraTimer.dir/src/CameraTimer.cpp.o\x1b[0m\n'}
+[0.907745] (-) TimerEvent: {}
+[1.010965] (-) TimerEvent: {}
+[1.112894] (-) TimerEvent: {}
+[1.213786] (-) TimerEvent: {}
+[1.315986] (-) TimerEvent: {}
+[1.417308] (-) TimerEvent: {}
+[1.519403] (-) TimerEvent: {}
+[1.623161] (-) TimerEvent: {}
+[1.727439] (-) TimerEvent: {}
+[1.828896] (-) TimerEvent: {}
+[1.931905] (-) TimerEvent: {}
+[2.033707] (-) TimerEvent: {}
+[2.141666] (-) TimerEvent: {}
+[2.245174] (-) TimerEvent: {}
+[2.349841] (-) TimerEvent: {}
+[2.451692] (-) TimerEvent: {}
+[2.556453] (-) TimerEvent: {}
+[2.658793] (-) TimerEvent: {}
+[2.765465] (-) TimerEvent: {}
+[2.870417] (-) TimerEvent: {}
+[2.986351] (-) TimerEvent: {}
+[3.087032] (-) TimerEvent: {}
+[3.191766] (-) TimerEvent: {}
+[3.294739] (-) TimerEvent: {}
+[3.397320] (-) TimerEvent: {}
+[3.501443] (-) TimerEvent: {}
+[3.611399] (-) TimerEvent: {}
+[3.714672] (-) TimerEvent: {}
+[3.819762] (-) TimerEvent: {}
+[3.922553] (-) TimerEvent: {}
+[4.029007] (-) TimerEvent: {}
+[4.129303] (-) TimerEvent: {}
+[4.230759] (-) TimerEvent: {}
+[4.334281] (-) TimerEvent: {}
+[4.437425] (-) TimerEvent: {}
+[4.538454] (-) TimerEvent: {}
+[4.643833] (-) TimerEvent: {}
+[4.745825] (-) TimerEvent: {}
+[4.851003] (-) TimerEvent: {}
+[4.953158] (-) TimerEvent: {}
+[5.054979] (-) TimerEvent: {}
+[5.155553] (-) TimerEvent: {}
+[5.256450] (-) TimerEvent: {}
+[5.368355] (-) TimerEvent: {}
+[5.474411] (-) TimerEvent: {}
+[5.577848] (-) TimerEvent: {}
+[5.679307] (-) TimerEvent: {}
+[5.784940] (-) TimerEvent: {}
+[5.886308] (-) TimerEvent: {}
+[5.990410] (-) TimerEvent: {}
+[6.092848] (-) TimerEvent: {}
+[6.194617] (-) TimerEvent: {}
+[6.297434] (-) TimerEvent: {}
+[6.402146] (-) TimerEvent: {}
+[6.504562] (-) TimerEvent: {}
+[6.608273] (-) TimerEvent: {}
+[6.721190] (-) TimerEvent: {}
+[6.830215] (-) TimerEvent: {}
+[6.932938] (-) TimerEvent: {}
+[7.039912] (-) TimerEvent: {}
+[7.140405] (-) TimerEvent: {}
+[7.241599] (-) TimerEvent: {}
+[7.344032] (-) TimerEvent: {}
+[7.445704] (-) TimerEvent: {}
+[7.550474] (-) TimerEvent: {}
+[7.651261] (-) TimerEvent: {}
+[7.756724] (-) TimerEvent: {}
+[7.867531] (-) TimerEvent: {}
+[7.968568] (-) TimerEvent: {}
+[8.069366] (-) TimerEvent: {}
+[8.172675] (-) TimerEvent: {}
+[8.286201] (-) TimerEvent: {}
+[8.386889] (-) TimerEvent: {}
+[8.493223] (-) TimerEvent: {}
+[8.594027] (-) TimerEvent: {}
+[8.699655] (-) TimerEvent: {}
+[8.803155] (-) TimerEvent: {}
+[8.908196] (-) TimerEvent: {}
+[9.008774] (-) TimerEvent: {}
+[9.110466] (-) TimerEvent: {}
+[9.215968] (-) TimerEvent: {}
+[9.318191] (-) TimerEvent: {}
+[9.423224] (-) TimerEvent: {}
+[9.528878] (-) TimerEvent: {}
+[9.632425] (-) TimerEvent: {}
+[9.735746] (-) TimerEvent: {}
+[9.837739] (-) TimerEvent: {}
+[9.940989] (-) TimerEvent: {}
+[10.042596] (-) TimerEvent: {}
+[10.150526] (-) TimerEvent: {}
+[10.251257] (-) TimerEvent: {}
+[10.352871] (-) TimerEvent: {}
+[10.453834] (-) TimerEvent: {}
+[10.555526] (-) TimerEvent: {}
+[10.660122] (-) TimerEvent: {}
+[10.766762] (-) TimerEvent: {}
+[10.873645] (-) TimerEvent: {}
+[10.978140] (-) TimerEvent: {}
+[11.080968] (-) TimerEvent: {}
+[11.190959] (-) TimerEvent: {}
+[11.299339] (-) TimerEvent: {}
+[11.400770] (-) TimerEvent: {}
+[11.503077] (-) TimerEvent: {}
+[11.609933] (-) TimerEvent: {}
+[11.650262] (comp_topic_rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.652678] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[11.652786] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.652859] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.652950] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.653211] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.653286] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.656187] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.656546] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.656621] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.656683] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.656741] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/CameraTimer.cpp:1\x1b[m\x1b[K:\n'}
+[11.656799] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/CameraTimer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCameraTimer::CameraTimer(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.656859] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/CameraTimer.cpp:27:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid operands of types \xe2\x80\x98\x1b[01m\x1b[Kconst char [25]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to binary \xe2\x80\x98\x1b[01m\x1b[Koperator+\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.657043] (comp_topic_rclcpp) StderrLine: {'line': b'   27 | his->get_logger(), \x1b[32m\x1b[K"\xe6\x97\xa0\xe6\xb3\x95\xe5\x8a\xa0\xe8\xbd\xbd\xe5\x9b\xbe\xe5\x83\x8f\xe6\x96\x87\xe4\xbb\xb6"\x1b[m\x1b[K\x1b[01;31m\x1b[K+\x1b[m\x1b[K\x1b[34m\x1b[Kstd::getenv("DATA_PATH")\x1b[m\x1b[K);\n'}
+[11.657227] (comp_topic_rclcpp) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[34m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.657407] (comp_topic_rclcpp) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K|\x1b[m\x1b[K                             \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[11.657586] (comp_topic_rclcpp) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kconst char [25]\x1b[m\x1b[K               \x1b[34m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[11.658954] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[11.714734] (-) TimerEvent: {}
+[11.816060] (-) TimerEvent: {}
+[11.920280] (-) TimerEvent: {}
+[12.024489] (-) TimerEvent: {}
+[12.127846] (-) TimerEvent: {}
+[12.229618] (-) TimerEvent: {}
+[12.335581] (-) TimerEvent: {}
+[12.438743] (-) TimerEvent: {}
+[12.545309] (-) TimerEvent: {}
+[12.647353] (-) TimerEvent: {}
+[12.748984] (-) TimerEvent: {}
+[12.854412] (-) TimerEvent: {}
+[12.956327] (-) TimerEvent: {}
+[13.066606] (-) TimerEvent: {}
+[13.181635] (-) TimerEvent: {}
+[13.282425] (-) TimerEvent: {}
+[13.385726] (-) TimerEvent: {}
+[13.488036] (-) TimerEvent: {}
+[13.588974] (-) TimerEvent: {}
+[13.692322] (-) TimerEvent: {}
+[13.800184] (-) TimerEvent: {}
+[13.901750] (-) TimerEvent: {}
+[14.006300] (-) TimerEvent: {}
+[14.109575] (-) TimerEvent: {}
+[14.212924] (-) TimerEvent: {}
+[14.316286] (-) TimerEvent: {}
+[14.423137] (-) TimerEvent: {}
+[14.530328] (-) TimerEvent: {}
+[14.632551] (-) TimerEvent: {}
+[14.736269] (-) TimerEvent: {}
+[14.837957] (-) TimerEvent: {}
+[14.939527] (-) TimerEvent: {}
+[15.048592] (-) TimerEvent: {}
+[15.149969] (-) TimerEvent: {}
+[15.255472] (-) TimerEvent: {}
+[15.359762] (-) TimerEvent: {}
+[15.460611] (-) TimerEvent: {}
+[15.563294] (-) TimerEvent: {}
+[15.671851] (-) TimerEvent: {}
+[15.777065] (-) TimerEvent: {}
+[15.885299] (-) TimerEvent: {}
+[15.987388] (-) TimerEvent: {}
+[16.092685] (-) TimerEvent: {}
+[16.193902] (-) TimerEvent: {}
+[16.296263] (-) TimerEvent: {}
+[16.399398] (-) TimerEvent: {}
+[16.508501] (-) TimerEvent: {}
+[16.611522] (-) TimerEvent: {}
+[16.713358] (-) TimerEvent: {}
+[16.815735] (-) TimerEvent: {}
+[16.884754] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/CameraTimer.dir/build.make:76: CMakeFiles/CameraTimer.dir/src/CameraTimer.cpp.o] Error 1\n'}
+[16.887304] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:600: CMakeFiles/CameraTimer.dir/all] Error 2\n'}
+[16.887458] (comp_topic_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.905760] (comp_topic_rclcpp) CommandEnded: {'returncode': 2}
+[16.917172] (-) TimerEvent: {}
+[17.019658] (-) TimerEvent: {}
+[17.124140] (-) TimerEvent: {}
+[17.227107] (-) TimerEvent: {}
+[17.328273] (-) TimerEvent: {}
+[17.429148] (-) TimerEvent: {}
+[17.501249] (comp_topic_rclcpp) JobEnded: {'identifier': 'comp_topic_rclcpp', 'rc': 2}
+[17.513370] (-) EventReactorShutdown: {}

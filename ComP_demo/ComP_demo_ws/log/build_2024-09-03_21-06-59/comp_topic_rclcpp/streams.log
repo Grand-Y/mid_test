@@ -1,0 +1,79 @@
+[0.029s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[0.171s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.635s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.742s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.755s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.782s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.099s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.105s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.488s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.101s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.605s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.603s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.464s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.542s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.542s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.544s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.693s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.699s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[5.700s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[5.700s]   rosidl_target_interfaces()
+[5.700s] Call Stack (most recent call first):
+[5.700s]   CMakeLists.txt:124 (rosidl_target_interfaces)
+[5.700s] 
+[5.701s] [0m
+[5.734s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.738s] -- Configured cppcheck include dirs: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/include
+[5.738s] -- Configured cppcheck exclude dirs and/or files: 
+[5.743s] -- Added test 'lint_cmake' to check CMake code style
+[5.749s] -- Added test 'uncrustify' to check C / C++ code style
+[5.750s] -- Configured uncrustify additional arguments: 
+[5.751s] -- Added test 'xmllint' to check XML markup files
+[5.773s] -- Configuring done
+[6.002s] -- Generating done
+[6.023s] -- Build files have been written to: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp
+[6.148s] [  2%] Built target comp_topic_rclcpp__cpp
+[6.199s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_generator_c[0m
+[6.250s] [ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[6.539s] [ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[6.607s] [35m[1mConsolidate compiler generated dependencies of target CameraTimer[0m
+[6.758s] [ 14%] Built target CameraTimer
+[6.845s] [35m[1mConsolidate compiler generated dependencies of target Final[0m
+[6.956s] [ 18%] Built target Final
+[7.021s] [35m[1mConsolidate compiler generated dependencies of target Tracker[0m
+[7.170s] [ 22%] Built target Tracker
+[7.273s] [35m[1mConsolidate compiler generated dependencies of target Lane[0m
+[7.433s] [ 28%] Built target Lane
+[7.545s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_cpp[0m
+[7.593s] [ 36%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[7.643s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c[0m
+[7.713s] [ 44%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[7.765s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp[0m
+[7.840s] [ 52%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[7.885s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_introspection_c[0m
+[7.933s] [ 60%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[7.971s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_c[0m
+[8.005s] [ 68%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[8.043s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp[0m
+[8.093s] [ 76%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+[9.013s] running egg_info
+[9.014s] writing comp_topic_rclcpp.egg-info/PKG-INFO
+[9.016s] writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt
+[9.017s] writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt
+[9.025s] reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[9.025s] writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[9.106s] [ 76%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg
+[9.199s] [ 76%] Built target comp_topic_rclcpp
+[9.273s] [ 78%] Built target comp_topic_rclcpp__py
+[9.325s] [35m[1mConsolidate compiler generated dependencies of target Yolo[0m
+[9.425s] [ 80%] [32mBuilding CXX object CMakeFiles/Yolo.dir/src/Yolo.cpp.o[0m
+[23.433s] gmake[2]: *** wait: No child processes.  Stop.
+[23.434s] gmake[2]: *** Waiting for unfinished jobs....
+[23.434s] gmake[2]: *** wait: No child processes.  Stop.
+[23.441s] gmake[1]: *** [CMakeFiles/Makefile2:706: CMakeFiles/Yolo.dir/all] Error 2
+[23.442s] gmake: *** [Makefile:146: all] Interrupt
+[23.511s] Invoked command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2

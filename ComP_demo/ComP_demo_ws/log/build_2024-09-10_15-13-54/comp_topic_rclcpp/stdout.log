@@ -1,0 +1,23 @@
+[  1%] Built target comp_topic_rclcpp__cpp
+[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[ 13%] Built target CameraTimer
+[ 13%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[ 22%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[ 32%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[ 41%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[ 60%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target Final[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/Final.dir/src/Final.cpp.o[0m
+running egg_info
+writing comp_topic_rclcpp.egg-info/PKG-INFO
+writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt
+writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt
+reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[ 71%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg
+[ 74%] Built target Tracker
+[ 75%] [32mBuilding CXX object CMakeFiles/Lane.dir/src/Lane.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable Final[0m
+[ 77%] Built target Final

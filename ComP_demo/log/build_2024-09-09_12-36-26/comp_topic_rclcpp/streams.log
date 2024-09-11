@@ -1,0 +1,50 @@
+[0.039s] Invoking command in '/home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ros/ros2proj/ComP_demo/install/comp_topic_rclcpp
+[0.148s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.774s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.869s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.877s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.894s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.999s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.233s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.235s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.663s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.210s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.667s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.111s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[3.111s]   execute_process(/home/ros/miniconda3/envs/ros2/bin/python3 -m
+[3.111s]   rosidl_adapter --package-name comp_topic_rclcpp --arguments-file
+[3.111s]   /home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/rosidl_adapter__arguments__comp_topic_rclcpp.json
+[3.111s]   --output-dir
+[3.111s]   /home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp
+[3.114s]   --output-file
+[3.114s]   /home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp.idls)
+[3.114s]   returned error code 1:
+[3.114s] 
+[3.114s]   Traceback (most recent call last):
+[3.114s] 
+[3.114s]     File "/home/ros/miniconda3/envs/ros2/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[3.115s]       return _run_code(code, main_globals, None,
+[3.115s]     File "/home/ros/miniconda3/envs/ros2/lib/python3.10/runpy.py", line 86, in _run_code
+[3.115s]       exec(code, run_globals)
+[3.115s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.115s]       sys.exit(main())
+[3.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[3.116s]       abs_idl_file = convert_to_idl(
+[3.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[3.116s]       from rosidl_adapter.msg import convert_msg_to_idl
+[3.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[3.116s]       from rosidl_adapter.resource import expand_template
+[3.117s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[3.117s]       import em
+[3.117s] 
+[3.123s]   ModuleNotFoundError: No module named 'em'
+[3.123s] 
+[3.123s] Call Stack (most recent call first):
+[3.123s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.123s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[3.123s] 
+[3.124s] [0m
+[3.124s] -- Configuring incomplete, errors occurred!
+[3.124s] See also "/home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/CMakeFiles/CMakeOutput.log".
+[3.135s] Invoked command in '/home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ros/ros2proj/ComP_demo/install/comp_topic_rclcpp

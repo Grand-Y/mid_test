@@ -1,0 +1,17 @@
+[  1%] Built target comp_topic_rclcpp__cpp
+[35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_generator_c[0m
+[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[ 13%] Built target CameraTimer
+[35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_cpp[0m
+[ 22%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c[0m
+[ 32%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp[0m
+[ 41%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_introspection_c[0m
+[ 51%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_c[0m
+[ 60%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp[0m
+[ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp

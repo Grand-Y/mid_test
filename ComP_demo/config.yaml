@@ -1,0 +1,7 @@
+midware: ros2
+
+workspace: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws'
+data_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/a.jpg'
+log_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/logs'
+output_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/output'
+model_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/resources/yolov5s.onnx'

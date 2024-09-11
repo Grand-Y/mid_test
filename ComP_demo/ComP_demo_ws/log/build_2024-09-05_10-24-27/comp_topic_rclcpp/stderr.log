@@ -1,0 +1,7 @@
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:[m[K In member function ‘[01m[Kvoid Lane::cameratimer_topic_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klane_process[m[K’ was not declared in this scope
+   34 |         [01;31m[Klane_process[m[K(frame, result);
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Lane.dir/build.make:76: CMakeFiles/Lane.dir/src/Lane.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:681: CMakeFiles/Lane.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

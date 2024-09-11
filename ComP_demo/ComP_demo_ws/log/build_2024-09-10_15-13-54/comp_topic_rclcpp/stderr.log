@@ -1,0 +1,22 @@
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:31:26:[m[K [01;31m[Kerror: [m[K‘[01m[Klog_path_env[m[K’ is not a type
+   31 |     std::string log_path([01;31m[Klog_path_env[m[K);
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:[m[K In member function ‘[01m[Kvoid Lane::initialize_log_file(const string&)[m[K’:
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:36:41:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kstd::string Lane::log_path(int)[m[K’
+   36 |         std::string log_file = [01;31m[Klog_path + log_name[m[K + ".log";
+      |                                [01;31m[K~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:31:17:[m[K [01;36m[Knote: [m[Kdeclared here
+   31 |     std::string [01;36m[Klog_path[m[K(log_path_env);
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:[m[K In member function ‘[01m[Kvoid Lane::log_tra_latency(const rclcpp::Time&)[m[K’:
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:54:32:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::string Lane::log_path(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   54 |         std::string log_file = [01;31m[Klog_path[m[K + "/tra_Lane_CameraTimerImage.log";
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:[m[K In member function ‘[01m[Kvoid Lane::log_cal_latency(const uint64_t&)[m[K’:
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:72:32:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::string Lane::log_path(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   72 |         std::string log_file = [01;31m[Klog_path[m[K + "/cal_Lane.log";
+      |                                [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Lane.dir/build.make:76: CMakeFiles/Lane.dir/src/Lane.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:681: CMakeFiles/Lane.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.003143] (comp_topic_rclcpp) JobQueued: {'identifier': 'comp_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.003286] (comp_topic_rclcpp) JobStarted: {'identifier': 'comp_topic_rclcpp'}
+[0.043111] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'cmake'}
+[0.045981] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'build'}
+[0.058502] (comp_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.204.2 64121 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52f4e5f3-9cfd-4e0e-bd91-e6d950decbe8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0dbcad9fb0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp'), ('SSH_CONNECTION', '192.168.204.2 64121 192.168.204.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101220] (-) TimerEvent: {}
+[0.202145] (-) TimerEvent: {}
+[0.279128] (comp_topic_rclcpp) StdoutLine: {'line': b'[  1%] Built target comp_topic_rclcpp__cpp\n'}
+[0.305626] (-) TimerEvent: {}
+[0.383747] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_generator_c\x1b[0m\n'}
+[0.412200] (-) TimerEvent: {}
+[0.475712] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c\n'}
+[0.524087] (-) TimerEvent: {}
+[0.634683] (-) TimerEvent: {}
+[0.667273] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp\n'}
+[0.741435] (-) TimerEvent: {}
+[0.836156] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 13%] Built target CameraTimer\n'}
+[0.855493] (-) TimerEvent: {}
+[0.960783] (-) TimerEvent: {}
+[1.007349] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 17%] Built target Final\n'}
+[1.066377] (-) TimerEvent: {}
+[1.126104] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 22%] Built target Lane\n'}
+[1.167639] (-) TimerEvent: {}
+[1.169836] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.281971] (-) TimerEvent: {}
+[1.330332] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 31%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp\n'}
+[1.382878] (-) TimerEvent: {}
+[1.405156] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.483349] (-) TimerEvent: {}
+[1.533073] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 39%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c\n'}
+[1.589542] (-) TimerEvent: {}
+[1.629192] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.696954] (-) TimerEvent: {}
+[1.732038] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 48%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp\n'}
+[1.818215] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.818618] (-) TimerEvent: {}
+[1.923032] (-) TimerEvent: {}
+[1.924114] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 56%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c\n'}
+[2.023814] (-) TimerEvent: {}
+[2.024692] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_c\x1b[0m\n'}
+[2.097422] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 65%] Built target comp_topic_rclcpp__rosidl_typesupport_c\n'}
+[2.129509] (-) TimerEvent: {}
+[2.200224] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.232245] (-) TimerEvent: {}
+[2.333881] (-) TimerEvent: {}
+[2.344039] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 74%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp\n'}
+[2.449495] (-) TimerEvent: {}
+[2.557134] (-) TimerEvent: {}
+[2.662594] (-) TimerEvent: {}
+[2.763874] (-) TimerEvent: {}
+[2.879970] (-) TimerEvent: {}
+[2.981118] (-) TimerEvent: {}
+[3.084591] (-) TimerEvent: {}
+[3.188035] (-) TimerEvent: {}
+[3.292818] (-) TimerEvent: {}
+[3.405962] (-) TimerEvent: {}
+[3.510610] (-) TimerEvent: {}
+[3.620367] (-) TimerEvent: {}
+[3.686431] (comp_topic_rclcpp) StdoutLine: {'line': b'running egg_info\n'}
+[3.689469] (comp_topic_rclcpp) StdoutLine: {'line': b'writing comp_topic_rclcpp.egg-info/PKG-INFO\n'}
+[3.697590] (comp_topic_rclcpp) StdoutLine: {'line': b'writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt\n'}
+[3.697944] (comp_topic_rclcpp) StdoutLine: {'line': b'writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt\n'}
+[3.717898] (comp_topic_rclcpp) StdoutLine: {'line': b"reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'\n"}
+[3.723143] (-) TimerEvent: {}
+[3.725353] (comp_topic_rclcpp) StdoutLine: {'line': b"writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'\n"}
+[3.829694] (-) TimerEvent: {}
+[3.867120] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 74%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg\n'}
+[3.936350] (-) TimerEvent: {}
+[4.040714] (-) TimerEvent: {}
+[4.065294] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 74%] Built target comp_topic_rclcpp\n'}
+[4.141659] (-) TimerEvent: {}
+[4.230908] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 75%] Built target comp_topic_rclcpp__py\n'}
+[4.243665] (-) TimerEvent: {}
+[4.344301] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Tracker\x1b[0m\n'}
+[4.344746] (-) TimerEvent: {}
+[4.449776] (-) TimerEvent: {}
+[4.473296] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/Tracker.dir/src/Tracker.cpp.o\x1b[0m\n'}
+[4.555833] (-) TimerEvent: {}
+[4.659819] (-) TimerEvent: {}
+[4.763967] (-) TimerEvent: {}
+[4.886831] (-) TimerEvent: {}
+[5.003206] (-) TimerEvent: {}
+[5.106485] (-) TimerEvent: {}
+[5.212113] (-) TimerEvent: {}
+[5.313770] (-) TimerEvent: {}
+[5.427167] (-) TimerEvent: {}
+[5.538929] (-) TimerEvent: {}
+[5.665330] (-) TimerEvent: {}
+[5.785263] (-) TimerEvent: {}
+[5.890464] (-) TimerEvent: {}
+[6.003298] (-) TimerEvent: {}
+[6.113101] (-) TimerEvent: {}
+[6.214845] (-) TimerEvent: {}
+[6.319095] (-) TimerEvent: {}
+[6.432609] (-) TimerEvent: {}
+[6.546518] (-) TimerEvent: {}
+[6.655480] (-) TimerEvent: {}
+[6.756380] (-) TimerEvent: {}
+[6.863304] (-) TimerEvent: {}
+[6.967351] (-) TimerEvent: {}
+[7.079029] (-) TimerEvent: {}
+[7.187742] (-) TimerEvent: {}
+[7.291134] (-) TimerEvent: {}
+[7.396808] (-) TimerEvent: {}
+[7.498330] (-) TimerEvent: {}
+[7.603215] (-) TimerEvent: {}
+[7.721856] (-) TimerEvent: {}
+[7.835018] (-) TimerEvent: {}
+[7.938012] (-) TimerEvent: {}
+[8.039393] (-) TimerEvent: {}
+[8.150533] (-) TimerEvent: {}
+[8.253019] (-) TimerEvent: {}
+[8.362941] (-) TimerEvent: {}
+[8.465461] (-) TimerEvent: {}
+[8.569184] (-) TimerEvent: {}
+[8.570036] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Tracker.dir/build.make:76: CMakeFiles/Tracker.dir/src/Tracker.cpp.o] Interrupt\n'}
+[8.572566] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[1]: *** wait: No child processes.  Stop.\n'}
+[8.572835] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[8.573291] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[1]: *** wait: No child processes.  Stop.\n'}
+[8.582648] (comp_topic_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.598843] (comp_topic_rclcpp) CommandEnded: {'returncode': -2}
+[8.674654] (-) TimerEvent: {}
+[8.784131] (-) TimerEvent: {}
+[8.890144] (-) TimerEvent: {}
+[8.992745] (-) TimerEvent: {}
+[9.093712] (-) TimerEvent: {}
+[9.201296] (-) TimerEvent: {}
+[9.305223] (-) TimerEvent: {}
+[9.407388] (-) TimerEvent: {}
+[9.511027] (-) TimerEvent: {}
+[9.601052] (comp_topic_rclcpp) JobEnded: {'identifier': 'comp_topic_rclcpp', 'rc': 'SIGINT'}
+[9.612399] (-) EventReactorShutdown: {}

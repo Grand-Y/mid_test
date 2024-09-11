@@ -1,0 +1,37 @@
+[0.066s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[0.276s] [  1%] Built target comp_topic_rclcpp__cpp
+[0.381s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_generator_c[0m
+[0.473s] [ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[0.664s] [ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[0.833s] [ 13%] Built target CameraTimer
+[1.005s] [ 17%] Built target Final
+[1.123s] [ 22%] Built target Lane
+[1.167s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_cpp[0m
+[1.327s] [ 31%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[1.402s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c[0m
+[1.530s] [ 39%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[1.626s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp[0m
+[1.729s] [ 48%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[1.815s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_introspection_c[0m
+[1.921s] [ 56%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[2.022s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_c[0m
+[2.094s] [ 65%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[2.198s] [35m[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp[0m
+[2.341s] [ 74%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+[3.684s] running egg_info
+[3.686s] writing comp_topic_rclcpp.egg-info/PKG-INFO
+[3.695s] writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt
+[3.695s] writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt
+[3.720s] reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[3.722s] writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[3.864s] [ 74%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg
+[4.063s] [ 74%] Built target comp_topic_rclcpp
+[4.228s] [ 75%] Built target comp_topic_rclcpp__py
+[4.341s] [35m[1mConsolidate compiler generated dependencies of target Tracker[0m
+[4.470s] [ 77%] [32mBuilding CXX object CMakeFiles/Tracker.dir/src/Tracker.cpp.o[0m
+[8.567s] gmake[2]: *** [CMakeFiles/Tracker.dir/build.make:76: CMakeFiles/Tracker.dir/src/Tracker.cpp.o] Interrupt
+[8.569s] gmake[1]: *** wait: No child processes.  Stop.
+[8.570s] gmake[1]: *** Waiting for unfinished jobs....
+[8.570s] gmake[1]: *** wait: No child processes.  Stop.
+[8.580s] gmake: *** [Makefile:146: all] Error 2
+[8.596s] Invoked command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2

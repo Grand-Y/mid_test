@@ -1,0 +1,41 @@
+[  1%] Built target comp_topic_rclcpp__cpp
+[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[ 13%] Built target CameraTimer
+[ 17%] Built target Final
+[ 22%] Built target Lane
+[ 31%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[ 39%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[ 48%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[ 65%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[ 74%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+running egg_info
+writing comp_topic_rclcpp.egg-info/PKG-INFO
+writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt
+writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt
+reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[ 74%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg
+[35m[1mConsolidate compiler generated dependencies of target Tracker[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/Tracker.dir/src/Tracker.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable Tracker[0m
+/usr/bin/ld: CMakeFiles/Tracker.dir/src/Tracker.cpp.o: in function `Tracker::Tracker()':
+Tracker.cpp:(.text._ZN7TrackerC2Ev[_ZN7TrackerC5Ev]+0x15e): undefined reference to `cv::Mat::Mat()'
+/usr/bin/ld: Tracker.cpp:(.text._ZN7TrackerC2Ev[_ZN7TrackerC5Ev]+0x838): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/Tracker.dir/src/Tracker.cpp.o: in function `Tracker::image_callback(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+Tracker.cpp:(.text._ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x211): undefined reference to `cv::Mat::Mat(int, int, int, void*, unsigned long)'
+/usr/bin/ld: Tracker.cpp:(.text._ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x354): undefined reference to `cv::rectangle(cv::_InputOutputArray const&, cv::Rect_<int>, cv::Scalar_<double> const&, int, int, int)'
+/usr/bin/ld: Tracker.cpp:(.text._ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x646): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+/usr/bin/ld: Tracker.cpp:(.text._ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x67d): undefined reference to `cv::waitKey(int)'
+/usr/bin/ld: Tracker.cpp:(.text._ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x68c): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: Tracker.cpp:(.text._ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN7Tracker14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x7d1): undefined reference to `cv::Mat::~Mat()'
+/usr/bin/ld: CMakeFiles/Tracker.dir/src/Tracker.cpp.o: in function `Tracker::yolo_result_callback(std::shared_ptr<comp_topic_rclcpp::msg::YoloResult_<std::allocator<void> > >)':
+Tracker.cpp:(.text._ZN7Tracker20yolo_result_callbackESt10shared_ptrIN17comp_topic_rclcpp3msg11YoloResult_ISaIvEEEE[_ZN7Tracker20yolo_result_callbackESt10shared_ptrIN17comp_topic_rclcpp3msg11YoloResult_ISaIvEEEE]+0x285): undefined reference to `cv::tracking::TrackerKCF::Params::Params()'
+/usr/bin/ld: Tracker.cpp:(.text._ZN7Tracker20yolo_result_callbackESt10shared_ptrIN17comp_topic_rclcpp3msg11YoloResult_ISaIvEEEE[_ZN7Tracker20yolo_result_callbackESt10shared_ptrIN17comp_topic_rclcpp3msg11YoloResult_ISaIvEEEE]+0x29e): undefined reference to `cv::tracking::TrackerKCF::create(cv::tracking::TrackerKCF::Params const&)'
+/usr/bin/ld: CMakeFiles/Tracker.dir/src/Tracker.cpp.o: in function `Tracker::~Tracker()':
+Tracker.cpp:(.text._ZN7TrackerD2Ev[_ZN7TrackerD5Ev]+0x2c): undefined reference to `cv::Mat::~Mat()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/Tracker.dir/build.make:176: Tracker] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/Tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

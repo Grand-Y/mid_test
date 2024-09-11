@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_introspection_c.dir/build.make:189: CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_introspection_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:326: CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_introspection_c.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:302: CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

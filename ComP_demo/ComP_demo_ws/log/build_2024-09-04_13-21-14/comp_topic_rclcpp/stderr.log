@@ -1,0 +1,20 @@
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:[m[K In constructor ‘[01m[KTracker::Tracker()[m[K’:
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:144:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KTracker::yolo_result_received_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  144 |     bool [01;35m[Kyolo_result_received_[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:143:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool Tracker::tracking_initialized_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  143 |     bool [01;35m[Ktracking_initialized_[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:13:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   13 |     [01;35m[KTracker[m[K() : Node("Tracker"), yolo_result_received_(false), tracking_initialized_(false)
+      |     [01;35m[K^~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:155:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  155 |     return 0;
+      |              [01;31m[K^[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:150:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  150 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/Tracker.dir/build.make:76: CMakeFiles/Tracker.dir/src/Tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:654: CMakeFiles/Tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

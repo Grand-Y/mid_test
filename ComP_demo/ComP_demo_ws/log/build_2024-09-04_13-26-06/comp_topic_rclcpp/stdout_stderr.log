@@ -1,0 +1,65 @@
+[  1%] Built target comp_topic_rclcpp__cpp
+[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[ 13%] Built target CameraTimer
+[ 13%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[ 18%] Built target Lane
+[ 27%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[ 36%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[ 44%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[ 62%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+[ 74%] Built target Final
+[35m[1mConsolidate compiler generated dependencies of target Tracker[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/Tracker.dir/src/Tracker.cpp.o[0m
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:1:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+    1 | class Tracker : public [01;31m[Krclcpp[m[K::Node
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:1:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+    1 | class Tracker : public rclcpp::[01;31m[KNode[m[K
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:3:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+    3 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:3:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:2:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    2 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:23:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   23 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   26 |     [01;31m[Krclcpp[m[K::Subscription<comp_topic_rclcpp::msg::YoloResult>::SharedPtr yolo_result_subscription_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   27 |     [01;31m[Krclcpp[m[K::Publisher<comp_topic_rclcpp::msg::TrackerResult>::SharedPtr tracker_result_publisher_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   28 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::Image>::SharedPtr raw_image_publisher_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+   31 |     std::[01;31m[Kvector[m[K<cv::Ptr<cv::Tracker>> trackers_;
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+  +++ |+[32m[K#include <vector>[m[K
+    1 | class Tracker : public rclcpp::Node
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ does not name a type
+   34 |     [01;31m[Kcv[m[K::Mat frame_;
+      |     [01;31m[K^~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   35 |     [01;31m[Ksensor_msgs[m[K::msg::Image::SharedPtr latest_image_msg_; // 保存最新的图像消息
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:36:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   36 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/Tracker.dir/build.make:76: CMakeFiles/Tracker.dir/src/Tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:654: CMakeFiles/Tracker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing comp_topic_rclcpp.egg-info/PKG-INFO
+writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt
+writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt
+reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[ 75%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg
+gmake: *** [Makefile:146: all] Error 2

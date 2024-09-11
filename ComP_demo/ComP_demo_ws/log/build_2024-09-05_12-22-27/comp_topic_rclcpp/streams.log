@@ -1,0 +1,20 @@
+[0.050s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[0.571s] [  1%] Built target comp_topic_rclcpp__cpp
+[0.722s] [ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[0.942s] [ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[1.142s] [ 13%] Built target CameraTimer
+[1.313s] [ 22%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[1.537s] [ 32%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[1.713s] [ 41%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[1.838s] [ 51%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[2.025s] [ 60%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[2.206s] [ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+[4.087s] running egg_info
+[4.089s] writing comp_topic_rclcpp.egg-info/PKG-INFO
+[4.095s] writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt
+[4.095s] writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt
+[4.126s] reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[4.126s] writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[4.306s] [ 70%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg
+[4.418s] [35m[1mConsolidate compiler generated dependencies of target Final[0m
+[4.593s] [ 71%] [32mBuilding CXX object CMakeFiles/Final.dir/src/Final.cpp.o[0m

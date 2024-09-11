@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from comp_topic_rclcpp/msg/LinesResult.msg
+// generated code does not contain a copyright notice
+
+#include "comp_topic_rclcpp/msg/PointDetect.idl"
+#include "std_msgs/msg/Header.idl"
+
+module comp_topic_rclcpp {
+  module msg {
+    struct LinesResult {
+      std_msgs::msg::Header header;
+
+      comp_topic_rclcpp::msg::PointDetect left1;
+
+      comp_topic_rclcpp::msg::PointDetect right1;
+
+      comp_topic_rclcpp::msg::PointDetect left2;
+
+      comp_topic_rclcpp::msg::PointDetect right2;
+    };
+  };
+};

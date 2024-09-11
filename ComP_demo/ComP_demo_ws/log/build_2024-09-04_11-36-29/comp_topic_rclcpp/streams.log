@@ -1,0 +1,54 @@
+[0.052s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[0.511s] [  1%] Built target comp_topic_rclcpp__cpp
+[0.606s] [ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[0.960s] [ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[0.990s] [ 13%] Built target CameraTimer
+[1.276s] [ 18%] Built target Lane
+[1.296s] [ 27%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[1.470s] [ 36%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[1.602s] [ 44%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[1.749s] [ 53%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[1.922s] [ 62%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[2.036s] [ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+[2.513s] Traceback (most recent call last):
+[2.513s]   File "/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp/ament_cmake_python/comp_topic_rclcpp/setup.py", line 1, in <module>
+[2.513s]     from setuptools import find_packages
+[2.513s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[2.517s]     import setuptools.version
+[2.517s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[2.518s]     import pkg_resources
+[2.518s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+[2.521s]     __import__('pkg_resources.extern.packaging.requirements')
+[2.521s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 56, in <module>
+[2.526s]     VERSION_PEP440 = Regex(Specifier._regex_str, re.VERBOSE | re.IGNORECASE)
+[2.526s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 2792, in __init__
+[2.528s]     self.re = re.compile(self.pattern, self.flags)
+[2.528s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[2.528s]     return _compile(pattern, flags)
+[2.529s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[2.529s]     p = sre_compile.compile(pattern, flags)
+[2.529s]   File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+[2.534s]     p = sre_parse.parse(p, flags)
+[2.534s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[2.535s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[2.535s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[2.536s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.537s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[2.537s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[2.540s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[2.541s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.541s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[2.541s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[2.541s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[2.555s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.555s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[2.556s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[2.556s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[2.556s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.557s]   File "/usr/lib/python3.10/sre_parse.py", line 508, in _parse
+[2.562s]     if this is None:
+[2.562s] KeyboardInterrupt
+[2.596s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_comp_topic_rclcpp_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_comp_topic_rclcpp_egg] Interrupt
+[2.597s] gmake[1]: *** [CMakeFiles/Makefile2:457: CMakeFiles/ament_cmake_python_build_comp_topic_rclcpp_egg.dir/all] Interrupt
+[2.599s] gmake: *** [Makefile:146: all] Interrupt
+[2.607s] Invoked command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2

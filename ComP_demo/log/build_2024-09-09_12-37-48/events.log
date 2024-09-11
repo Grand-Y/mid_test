@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.001511] (comp_topic_rclcpp) JobQueued: {'identifier': 'comp_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.002843] (comp_topic_rclcpp) JobStarted: {'identifier': 'comp_topic_rclcpp'}
+[0.031005] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'cmake'}
+[0.033737] (comp_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2proj/ComP_demo/install/comp_topic_rclcpp'], 'cwd': '/home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ros2)'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.204.2 64121 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('CONDA_SHLVL', '2'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2280f035-cb75-4845-adbe-cd2f06f68778.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/miniconda3/envs/ros2/bin:/home/ros/miniconda3/condabin:/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('CONDA_PREFIX_1', '/home/ros/miniconda3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1aafc4f766.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ros/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ros2'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp'), ('CONDA_EXE', '/home/ros/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.204.2 64121 192.168.204.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/ros/miniconda3/envs/ros2'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.104255] (-) TimerEvent: {}
+[0.118074] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.209374] (-) TimerEvent: {}
+[0.313438] (-) TimerEvent: {}
+[0.414170] (-) TimerEvent: {}
+[0.487379] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.520100] (-) TimerEvent: {}
+[0.620598] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.621155] (-) TimerEvent: {}
+[0.634248] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.692703] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.721738] (-) TimerEvent: {}
+[0.739278] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.824935] (-) TimerEvent: {}
+[0.832909] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.925701] (-) TimerEvent: {}
+[1.026804] (-) TimerEvent: {}
+[1.056802] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.063030] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.127780] (-) TimerEvent: {}
+[1.229021] (-) TimerEvent: {}
+[1.332081] (-) TimerEvent: {}
+[1.433722] (-) TimerEvent: {}
+[1.517966] (comp_topic_rclcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.534574] (-) TimerEvent: {}
+[1.635766] (-) TimerEvent: {}
+[1.738633] (-) TimerEvent: {}
+[1.840089] (-) TimerEvent: {}
+[1.941390] (-) TimerEvent: {}
+[2.043505] (-) TimerEvent: {}
+[2.146029] (-) TimerEvent: {}
+[2.247512] (-) TimerEvent: {}
+[2.305484] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.348593] (-) TimerEvent: {}
+[2.449540] (-) TimerEvent: {}
+[2.550169] (-) TimerEvent: {}
+[2.651343] (-) TimerEvent: {}
+[2.750184] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.752220] (-) TimerEvent: {}
+[2.853401] (-) TimerEvent: {}
+[2.956936] (-) TimerEvent: {}
+[3.058635] (-) TimerEvent: {}
+[3.159555] (-) TimerEvent: {}
+[3.241924] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[3.242857] (comp_topic_rclcpp) StderrLine: {'line': b'  execute_process(/home/ros/miniconda3/envs/ros2/bin/python3 -m\n'}
+[3.243089] (comp_topic_rclcpp) StderrLine: {'line': b'  rosidl_adapter --package-name comp_topic_rclcpp --arguments-file\n'}
+[3.243167] (comp_topic_rclcpp) StderrLine: {'line': b'  /home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/rosidl_adapter__arguments__comp_topic_rclcpp.json\n'}
+[3.243270] (comp_topic_rclcpp) StderrLine: {'line': b'  --output-dir\n'}
+[3.246708] (comp_topic_rclcpp) StderrLine: {'line': b'  /home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp\n'}
+[3.246948] (comp_topic_rclcpp) StderrLine: {'line': b'  --output-file\n'}
+[3.247128] (comp_topic_rclcpp) StderrLine: {'line': b'  /home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp.idls)\n'}
+[3.247304] (comp_topic_rclcpp) StderrLine: {'line': b'  returned error code 1:\n'}
+[3.247481] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.247645] (comp_topic_rclcpp) StderrLine: {'line': b"  AttributeError processing template 'msg.idl.em'\n"}
+[3.247823] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.247994] (comp_topic_rclcpp) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[3.248170] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.248347] (comp_topic_rclcpp) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template\n'}
+[3.248543] (comp_topic_rclcpp) StderrLine: {'line': b'      em.BUFFERED_OPT: True,\n'}
+[3.248720] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.257737] (comp_topic_rclcpp) StderrLine: {'line': b"  AttributeError: module 'em' has no attribute 'BUFFERED_OPT'\n"}
+[3.258151] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.258227] (comp_topic_rclcpp) StderrLine: {'line': b'  \n'}
+[3.258321] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.258376] (comp_topic_rclcpp) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[3.258429] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.258525] (comp_topic_rclcpp) StderrLine: {'line': b'  \n'}
+[3.258579] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.258630] (comp_topic_rclcpp) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[3.258733] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.258785] (comp_topic_rclcpp) StderrLine: {'line': b'    File "/home/ros/miniconda3/envs/ros2/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[3.258837] (comp_topic_rclcpp) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[3.258887] (comp_topic_rclcpp) StderrLine: {'line': b'    File "/home/ros/miniconda3/envs/ros2/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[3.258937] (comp_topic_rclcpp) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[3.259031] (comp_topic_rclcpp) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[3.259084] (comp_topic_rclcpp) StderrLine: {'line': b'      sys.exit(main())\n'}
+[3.259134] (comp_topic_rclcpp) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[3.259183] (comp_topic_rclcpp) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[3.259232] (comp_topic_rclcpp) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[3.259309] (comp_topic_rclcpp) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[3.259482] (comp_topic_rclcpp) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 39, in convert_msg_to_idl\n'}
+[3.259554] (-) TimerEvent: {}
+[3.259674] (comp_topic_rclcpp) StderrLine: {'line': b"      expand_template('msg.idl.em', data, output_file, encoding='iso-8859-1')\n"}
+[3.259739] (comp_topic_rclcpp) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template\n'}
+[3.259791] (comp_topic_rclcpp) StderrLine: {'line': b'      content = evaluate_template(template_name, data)\n'}
+[3.259854] (comp_topic_rclcpp) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template\n'}
+[3.259945] (comp_topic_rclcpp) StderrLine: {'line': b'      _interpreter.shutdown()\n'}
+[3.260067] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.260199] (comp_topic_rclcpp) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'shutdown'\n"}
+[3.260429] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.260620] (comp_topic_rclcpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.260801] (comp_topic_rclcpp) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[3.260978] (comp_topic_rclcpp) StderrLine: {'line': b'  CMakeLists.txt:20 (rosidl_generate_interfaces)\n'}
+[3.261320] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[3.261687] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[0m\n'}
+[3.265225] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.265803] (comp_topic_rclcpp) StdoutLine: {'line': b'See also "/home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/CMakeFiles/CMakeOutput.log".\n'}
+[3.272438] (comp_topic_rclcpp) CommandEnded: {'returncode': 1}
+[3.346039] (comp_topic_rclcpp) JobEnded: {'identifier': 'comp_topic_rclcpp', 'rc': 1}
+[3.360444] (-) TimerEvent: {}
+[3.366864] (-) EventReactorShutdown: {}

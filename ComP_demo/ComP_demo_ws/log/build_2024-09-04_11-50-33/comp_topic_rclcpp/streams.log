@@ -1,0 +1,44 @@
+[0.052s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[0.331s] [  1%] Built target comp_topic_rclcpp__cpp
+[0.393s] [ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[0.537s] [ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[0.629s] [ 13%] Built target CameraTimer
+[0.790s] [ 18%] Built target Lane
+[0.860s] [ 27%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[1.009s] [ 36%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[1.018s] [ 44%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[1.155s] [ 53%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[1.171s] [ 62%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[1.326s] [ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp
+[1.507s] [ 74%] Built target Final
+[1.597s] [35m[1mConsolidate compiler generated dependencies of target Tracker[0m
+[1.717s] [ 75%] [32mBuilding CXX object CMakeFiles/Tracker.dir/src/Tracker.cpp.o[0m
+[3.212s] running egg_info
+[3.227s] writing comp_topic_rclcpp.egg-info/PKG-INFO
+[3.234s] writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt
+[3.239s] writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt
+[3.275s] reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[3.298s] writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'
+[3.628s] [ 75%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg
+[3.802s] [ 77%] [32mBuilding CXX object CMakeFiles/Yolo.dir/src/Yolo.cpp.o[0m
+[29.548s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:[m[K In member function ‘[01m[Kvoid Yolo::cameratimer_topic_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[29.548s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:73:66:[m[K [01;31m[Kerror: [m[K‘[01m[KinputNames[m[K’ was not declared in this scope
+[29.548s]    73 |     auto output_tensors = session->Run(Ort::RunOptions{nullptr}, [01;31m[KinputNames[m[K.data(), &input_tensor, 1, outputNames.data(), 1);
+[29.548s]       |                                                                  [01;31m[K^~~~~~~~~~[m[K
+[29.615s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:73:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_tensor[m[K’ was not declared in this scope; did you mean ‘[01m[Koutput_tensors[m[K’?
+[29.615s]    73 |     auto output_tensors = session->Run(Ort::RunOptions{nullptr}, inputNames.data(), &[01;31m[Kinput_tensor[m[K, 1, outputNames.data(), 1);
+[29.616s]       |                                                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[29.616s]       |                                                                                      [32m[Koutput_tensors[m[K
+[29.683s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:73:103:[m[K [01;31m[Kerror: [m[K‘[01m[KoutputNames[m[K’ was not declared in this scope
+[29.683s]    73 |     auto output_tensors = session->Run(Ort::RunOptions{nullptr}, inputNames.data(), &input_tensor, 1, [01;31m[KoutputNames[m[K.data(), 1);
+[29.684s]       |                                                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[29.684s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:75:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[29.684s]    75 |     float *output_data = output_tensors[0].GetTensorMutableData<[01;31m[Kfloat[m[K>();
+[29.684s]       |                                                                 [01;31m[K^~~~~[m[K
+[51.342s] gmake[2]: *** [CMakeFiles/Yolo.dir/build.make:76: CMakeFiles/Yolo.dir/src/Yolo.cpp.o] Error 1
+[51.349s] gmake[1]: *** [CMakeFiles/Makefile2:707: CMakeFiles/Yolo.dir/all] Error 2
+[51.351s] gmake[1]: *** Waiting for unfinished jobs....
+[75.377s] [ 79%] [32m[1mLinking CXX executable Tracker[0m
+[79.582s] [ 79%] Built target Tracker
+[79.585s] gmake: *** [Makefile:146: all] Error 2
+[79.604s] Invoked command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2

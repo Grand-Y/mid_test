@@ -1,0 +1,18 @@
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:[m[K In member function ‘[01m[Kvoid Yolo::cameratimer_topic_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:73:66:[m[K [01;31m[Kerror: [m[K‘[01m[KinputNames[m[K’ was not declared in this scope
+   73 |     auto output_tensors = session->Run(Ort::RunOptions{nullptr}, [01;31m[KinputNames[m[K.data(), &input_tensor, 1, outputNames.data(), 1);
+      |                                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:73:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_tensor[m[K’ was not declared in this scope; did you mean ‘[01m[Koutput_tensors[m[K’?
+   73 |     auto output_tensors = session->Run(Ort::RunOptions{nullptr}, inputNames.data(), &[01;31m[Kinput_tensor[m[K, 1, outputNames.data(), 1);
+      |                                                                                      [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                                                      [32m[Koutput_tensors[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:73:103:[m[K [01;31m[Kerror: [m[K‘[01m[KoutputNames[m[K’ was not declared in this scope
+   73 |     auto output_tensors = session->Run(Ort::RunOptions{nullptr}, inputNames.data(), &input_tensor, 1, [01;31m[KoutputNames[m[K.data(), 1);
+      |                                                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Yolo.cpp:75:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+   75 |     float *output_data = output_tensors[0].GetTensorMutableData<[01;31m[Kfloat[m[K>();
+      |                                                                 [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/Yolo.dir/build.make:76: CMakeFiles/Yolo.dir/src/Yolo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:707: CMakeFiles/Yolo.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

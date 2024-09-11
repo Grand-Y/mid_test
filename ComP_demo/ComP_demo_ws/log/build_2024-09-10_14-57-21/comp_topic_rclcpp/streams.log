@@ -1,0 +1,26 @@
+[0.110s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[0.559s] [  1%] Built target comp_topic_rclcpp__cpp
+[0.712s] [ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[0.930s] [ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[0.983s] [35m[1mConsolidate compiler generated dependencies of target CameraTimer[0m
+[1.079s] [ 12%] [32mBuilding CXX object CMakeFiles/CameraTimer.dir/src/CameraTimer.cpp.o[0m
+[14.568s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[14.569s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[14.569s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[14.569s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[14.569s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[14.569s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[14.569s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[14.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[14.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[14.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[14.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[14.583s]                  from [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/CameraTimer.cpp:1[m[K:
+[14.584s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/CameraTimer.cpp:[m[K In constructor ‘[01m[KCameraTimer::CameraTimer(std::string)[m[K’:
+[14.584s] [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/CameraTimer.cpp:30:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_file[m[K’ was not declared in this scope; did you mean ‘[01m[Kimage_[m[K’?
+[14.584s]    30 |             RCLCPP_ERROR(this->get_logger(), "无法加载图像文件: %s", [01;31m[Kimage_file[m[K.c_str());
+[14.584s]       |                                                                      [01;31m[K^~~~~~~~~~[m[K
+[22.154s] gmake[2]: *** [CMakeFiles/CameraTimer.dir/build.make:76: CMakeFiles/CameraTimer.dir/src/CameraTimer.cpp.o] Error 1
+[22.160s] gmake[1]: *** [CMakeFiles/Makefile2:600: CMakeFiles/CameraTimer.dir/all] Error 2
+[22.160s] gmake: *** [Makefile:146: all] Error 2
+[22.170s] Invoked command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2

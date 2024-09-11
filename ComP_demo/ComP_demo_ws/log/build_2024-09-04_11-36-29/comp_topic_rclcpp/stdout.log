@@ -1,0 +1,11 @@
+[  1%] Built target comp_topic_rclcpp__cpp
+[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[ 13%] Built target CameraTimer
+[ 18%] Built target Lane
+[ 27%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[ 36%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[ 44%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c
+[ 62%] Built target comp_topic_rclcpp__rosidl_typesupport_c
+[ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp

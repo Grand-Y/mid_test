@@ -1,0 +1,23 @@
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:[m[K In member function ‘[01m[Kvoid Tracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:43:55:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kcv::Rect&[m[K’ {aka ‘[01m[Kcv::Rect_<int>&[m[K’} to an rvalue of type ‘[01m[Kcv::Rect_<int>[m[K’
+   43 |                 bool ok = trackers_[i]->update(frame, [01;31m[Kbbox[m[K);
+      |                                                       [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:57[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:5[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/types.hpp:1921:1:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kcv::Rect_<_Tp>::operator cv::Rect_<_Tp2>() const [with _Tp2 = int; _Tp = double][m[K’
+ 1921 | [01;36m[KRect_<_Tp>[m[K::operator Rect_<_Tp2>() const
+      | [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/video.hpp:56[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:89[m[K,
+                 from [01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:5[m[K:
+[01m[K/usr/include/opencv4/opencv2/video/tracking.hpp:737:48:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvirtual bool cv::Tracker::update(cv::InputArray, cv::Rect&)[m[K’
+  737 |     bool update(InputArray image, CV_OUT [01;36m[KRect& boundingBox[m[K) = 0;
+      |                                          [01;36m[K~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:[m[K In member function ‘[01m[Kvoid Tracker::yolo_result_callback(comp_topic_rclcpp::msg::YoloResult_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:81:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv::TrackerKCF[m[K’ has not been declared
+   81 |                 auto tracker = cv::[01;31m[KTrackerKCF[m[K::create();
+      |                                    [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Tracker.dir/build.make:76: CMakeFiles/Tracker.dir/src/Tracker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/Tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

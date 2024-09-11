@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.001116] (comp_topic_rclcpp) JobQueued: {'identifier': 'comp_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.001790] (comp_topic_rclcpp) JobStarted: {'identifier': 'comp_topic_rclcpp'}
+[0.045086] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'cmake'}
+[0.049222] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'build'}
+[0.052163] (comp_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.204.2 64121 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52f4e5f3-9cfd-4e0e-bd91-e6d950decbe8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0dbcad9fb0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp'), ('SSH_CONNECTION', '192.168.204.2 64121 192.168.204.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100532] (-) TimerEvent: {}
+[0.204547] (-) TimerEvent: {}
+[0.306632] (-) TimerEvent: {}
+[0.370705] (comp_topic_rclcpp) StdoutLine: {'line': b'[  1%] Built target comp_topic_rclcpp__cpp\n'}
+[0.396634] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c\n'}
+[0.408340] (-) TimerEvent: {}
+[0.511419] (-) TimerEvent: {}
+[0.574547] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp\n'}
+[0.590962] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 13%] Built target CameraTimer\n'}
+[0.620485] (-) TimerEvent: {}
+[0.726400] (-) TimerEvent: {}
+[0.748952] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 18%] Built target Lane\n'}
+[0.787554] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 27%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp\n'}
+[0.827327] (-) TimerEvent: {}
+[0.927256] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 36%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp\n'}
+[0.927701] (-) TimerEvent: {}
+[0.998544] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 44%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c\n'}
+[1.029238] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 53%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c\n'}
+[1.029771] (-) TimerEvent: {}
+[1.135406] (-) TimerEvent: {}
+[1.177591] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 62%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp\n'}
+[1.213504] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_c\n'}
+[1.241615] (-) TimerEvent: {}
+[1.324309] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 74%] Built target Final\n'}
+[1.342019] (-) TimerEvent: {}
+[1.429508] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/Tracker.dir/src/Tracker.cpp.o\x1b[0m\n'}
+[1.442666] (-) TimerEvent: {}
+[1.549411] (-) TimerEvent: {}
+[1.651835] (-) TimerEvent: {}
+[1.756220] (-) TimerEvent: {}
+[1.859020] (-) TimerEvent: {}
+[1.962844] (-) TimerEvent: {}
+[2.068536] (-) TimerEvent: {}
+[2.173596] (-) TimerEvent: {}
+[2.276216] (-) TimerEvent: {}
+[2.377965] (-) TimerEvent: {}
+[2.497935] (-) TimerEvent: {}
+[2.602699] (-) TimerEvent: {}
+[2.704413] (-) TimerEvent: {}
+[2.773528] (comp_topic_rclcpp) StdoutLine: {'line': b'running egg_info\n'}
+[2.779526] (comp_topic_rclcpp) StdoutLine: {'line': b'writing comp_topic_rclcpp.egg-info/PKG-INFO\n'}
+[2.781992] (comp_topic_rclcpp) StdoutLine: {'line': b'writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt\n'}
+[2.783692] (comp_topic_rclcpp) StdoutLine: {'line': b'writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt\n'}
+[2.798443] (comp_topic_rclcpp) StdoutLine: {'line': b"reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'\n"}
+[2.805493] (-) TimerEvent: {}
+[2.806200] (comp_topic_rclcpp) StdoutLine: {'line': b"writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'\n"}
+[2.907762] (-) TimerEvent: {}
+[2.964890] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg\n'}
+[3.008535] (-) TimerEvent: {}
+[3.114832] (-) TimerEvent: {}
+[3.149995] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 79%] Built target Yolo\n'}
+[3.215048] (-) TimerEvent: {}
+[3.271748] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 79%] Built target comp_topic_rclcpp\n'}
+[3.317314] (-) TimerEvent: {}
+[3.394275] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 81%] Built target comp_topic_rclcpp__py\n'}
+[3.422986] (-) TimerEvent: {}
+[3.525999] (-) TimerEvent: {}
+[3.560761] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 87%] Built target comp_topic_rclcpp__rosidl_generator_py\n'}
+[3.631046] (-) TimerEvent: {}
+[3.733041] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 91%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.733523] (-) TimerEvent: {}
+[3.834618] (-) TimerEvent: {}
+[3.892592] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 94%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c__pyext\n'}
+[3.941995] (-) TimerEvent: {}
+[4.045445] (-) TimerEvent: {}
+[4.104192] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 98%] Built target comp_topic_rclcpp__rosidl_typesupport_c__pyext\n'}
+[4.145799] (-) TimerEvent: {}
+[4.253439] (-) TimerEvent: {}
+[4.357333] (-) TimerEvent: {}
+[4.461233] (-) TimerEvent: {}
+[4.567863] (-) TimerEvent: {}
+[4.668994] (-) TimerEvent: {}
+[4.772772] (-) TimerEvent: {}
+[4.875568] (-) TimerEvent: {}
+[4.987944] (-) TimerEvent: {}
+[5.093948] (-) TimerEvent: {}
+[5.195961] (-) TimerEvent: {}
+[5.302506] (-) TimerEvent: {}
+[5.404774] (-) TimerEvent: {}
+[5.510776] (-) TimerEvent: {}
+[5.617289] (-) TimerEvent: {}
+[5.721373] (-) TimerEvent: {}
+[5.825487] (-) TimerEvent: {}
+[5.926689] (-) TimerEvent: {}
+[6.031124] (-) TimerEvent: {}
+[6.144229] (-) TimerEvent: {}
+[6.247874] (-) TimerEvent: {}
+[6.354728] (-) TimerEvent: {}
+[6.455669] (-) TimerEvent: {}
+[6.559945] (-) TimerEvent: {}
+[6.667143] (-) TimerEvent: {}
+[6.768419] (-) TimerEvent: {}
+[6.869216] (-) TimerEvent: {}
+[6.971454] (-) TimerEvent: {}
+[7.073833] (-) TimerEvent: {}
+[7.176708] (-) TimerEvent: {}
+[7.288573] (-) TimerEvent: {}
+[7.390097] (-) TimerEvent: {}
+[7.498162] (-) TimerEvent: {}
+[7.600112] (-) TimerEvent: {}
+[7.708646] (-) TimerEvent: {}
+[7.816928] (-) TimerEvent: {}
+[7.919760] (-) TimerEvent: {}
+[8.020574] (-) TimerEvent: {}
+[8.126585] (-) TimerEvent: {}
+[8.230953] (-) TimerEvent: {}
+[8.341745] (-) TimerEvent: {}
+[8.449232] (-) TimerEvent: {}
+[8.569978] (-) TimerEvent: {}
+[8.671090] (-) TimerEvent: {}
+[8.772248] (-) TimerEvent: {}
+[8.874024] (-) TimerEvent: {}
+[8.975880] (-) TimerEvent: {}
+[9.079003] (-) TimerEvent: {}
+[9.192483] (-) TimerEvent: {}
+[9.293435] (-) TimerEvent: {}
+[9.399897] (-) TimerEvent: {}
+[9.500983] (-) TimerEvent: {}
+[9.605522] (-) TimerEvent: {}
+[9.715475] (-) TimerEvent: {}
+[9.822839] (-) TimerEvent: {}
+[9.927848] (-) TimerEvent: {}
+[10.030323] (-) TimerEvent: {}
+[10.134569] (-) TimerEvent: {}
+[10.241976] (-) TimerEvent: {}
+[10.343669] (-) TimerEvent: {}
+[10.448839] (-) TimerEvent: {}
+[10.552032] (-) TimerEvent: {}
+[10.664218] (-) TimerEvent: {}
+[10.769326] (-) TimerEvent: {}
+[10.873173] (-) TimerEvent: {}
+[10.976775] (-) TimerEvent: {}
+[11.089281] (-) TimerEvent: {}
+[11.190185] (-) TimerEvent: {}
+[11.291996] (-) TimerEvent: {}
+[11.393268] (-) TimerEvent: {}
+[11.502234] (-) TimerEvent: {}
+[11.603122] (-) TimerEvent: {}
+[11.710322] (-) TimerEvent: {}
+[11.814667] (-) TimerEvent: {}
+[11.915379] (-) TimerEvent: {}
+[12.018104] (-) TimerEvent: {}
+[12.124912] (-) TimerEvent: {}
+[12.231876] (-) TimerEvent: {}
+[12.337109] (-) TimerEvent: {}
+[12.442418] (-) TimerEvent: {}
+[12.545471] (-) TimerEvent: {}
+[12.646824] (-) TimerEvent: {}
+[12.748909] (-) TimerEvent: {}
+[12.850339] (-) TimerEvent: {}
+[12.959151] (-) TimerEvent: {}
+[13.061531] (-) TimerEvent: {}
+[13.163451] (-) TimerEvent: {}
+[13.264432] (-) TimerEvent: {}
+[13.367813] (-) TimerEvent: {}
+[13.469055] (-) TimerEvent: {}
+[13.573636] (-) TimerEvent: {}
+[13.677282] (-) TimerEvent: {}
+[13.784809] (-) TimerEvent: {}
+[13.886784] (-) TimerEvent: {}
+[13.989544] (-) TimerEvent: {}
+[14.092578] (-) TimerEvent: {}
+[14.198281] (-) TimerEvent: {}
+[14.302484] (-) TimerEvent: {}
+[14.407709] (-) TimerEvent: {}
+[14.510057] (-) TimerEvent: {}
+[14.615331] (-) TimerEvent: {}
+[14.722821] (-) TimerEvent: {}
+[14.823624] (-) TimerEvent: {}
+[14.928351] (-) TimerEvent: {}
+[15.031923] (-) TimerEvent: {}
+[15.134341] (-) TimerEvent: {}
+[15.243251] (-) TimerEvent: {}
+[15.348261] (-) TimerEvent: {}
+[15.449995] (-) TimerEvent: {}
+[15.554844] (-) TimerEvent: {}
+[15.661858] (-) TimerEvent: {}
+[15.771297] (-) TimerEvent: {}
+[15.812627] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Tracker::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.813463] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:72:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >::publish(const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.813701] (comp_topic_rclcpp) StderrLine: {'line': b'   72 |                 \x1b[01;31m\x1b[Kcamera_image_publisher_->publish(msg)\x1b[m\x1b[K;  // \xe5\x8f\x91\xe5\xb8\x83\xe5\x8e\x9f\xe5\xa7\x8b\xe5\x9b\xbe\xe5\x83\x8f\n'}
+[15.813905] (comp_topic_rclcpp) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[15.818330] (comp_topic_rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[15.818743] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[15.818950] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[15.819267] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.819476] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.819657] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.819836] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.820012] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.820188] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.829098] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.829350] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:1\x1b[m\x1b[K:\n'}
+[15.829545] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.829802] (comp_topic_rclcpp) StderrLine: {'line': b'  251 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)\n'}
+[15.829985] (comp_topic_rclcpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.830268] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.830480] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:72:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.830669] (comp_topic_rclcpp) StderrLine: {'line': b'   72 |                 \x1b[01;36m\x1b[Kcamera_image_publisher_->publish(msg)\x1b[m\x1b[K;  // \xe5\x8f\x91\xe5\xb8\x83\xe5\x8e\x9f\xe5\xa7\x8b\xe5\x9b\xbe\xe5\x83\x8f\n'}
+[15.830846] (comp_topic_rclcpp) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[15.831020] (comp_topic_rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[15.833563] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[15.833778] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[15.833959] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.834157] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.834334] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.834509] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.834686] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.834872] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.835046] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.837517] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:1\x1b[m\x1b[K:\n'}
+[15.837792] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.838018] (comp_topic_rclcpp) StderrLine: {'line': b'  292 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[15.838205] (comp_topic_rclcpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.838386] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.838566] (comp_topic_rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[15.838744] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[15.838920] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[15.839097] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[15.839286] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[15.839465] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:1\x1b[m\x1b[K:\n'}
+[15.839643] (comp_topic_rclcpp) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.839825] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, sensor_msgs::msg::Image_<std::allocator<void> > >::value), void> rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> > >::publish<T>(const T&) [with T = std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.840072] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:72:49:\x1b[m\x1b[K   required from here\n'}
+[15.840252] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2579:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.840432] (comp_topic_rclcpp) StderrLine: {'line': b' 2579 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[15.840608] (comp_topic_rclcpp) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.840782] (comp_topic_rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[15.840957] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[15.841131] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[15.841306] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.841482] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.849373] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.849671] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.849944] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.850069] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.850181] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.850237] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:1\x1b[m\x1b[K:\n'}
+[15.850293] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.850368] (comp_topic_rclcpp) StderrLine: {'line': b'  322 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, PublishedTypeDeleter> msg)\n'}
+[15.850439] (comp_topic_rclcpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.850594] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.850772] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:72:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.866367] (comp_topic_rclcpp) StderrLine: {'line': b'   72 |                 \x1b[01;36m\x1b[Kcamera_image_publisher_->publish(msg)\x1b[m\x1b[K;  // \xe5\x8f\x91\xe5\xb8\x83\xe5\x8e\x9f\xe5\xa7\x8b\xe5\x9b\xbe\xe5\x83\x8f\n'}
+[15.866700] (comp_topic_rclcpp) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[15.866910] (comp_topic_rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[15.867101] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[15.867291] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[15.867492] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.867672] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.867850] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.868185] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.868398] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.868580] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.868756] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.868939] (comp_topic_rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Tracker.cpp:1\x1b[m\x1b[K:\n'}
+[15.869116] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.869304] (comp_topic_rclcpp) StderrLine: {'line': b'  364 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[15.869479] (comp_topic_rclcpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.869654] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.869833] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.870032] (comp_topic_rclcpp) StderrLine: {'line': b'  383 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[15.870209] (comp_topic_rclcpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.870383] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_s&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[15.870784] (comp_topic_rclcpp) StderrLine: {'line': b'  383 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[15.870975] (comp_topic_rclcpp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.871153] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.871350] (-) TimerEvent: {}
+[15.877895] (comp_topic_rclcpp) StderrLine: {'line': b'  389 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[15.880300] (comp_topic_rclcpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.880656] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.880944] (comp_topic_rclcpp) StderrLine: {'line': b'  389 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[15.881139] (comp_topic_rclcpp) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.881321] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = sensor_msgs::msg::Image_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = sensor_msgs::msg::Image_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.881511] (comp_topic_rclcpp) StderrLine: {'line': b'  403 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)\n'}
+[15.881691] (comp_topic_rclcpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[15.881869] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.882111] (comp_topic_rclcpp) StderrLine: {'line': b'  403 | h(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[15.882289] (comp_topic_rclcpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.882461] (comp_topic_rclcpp) StderrLine: {'line': b'\n'}
+[15.973314] (-) TimerEvent: {}
+[16.078949] (-) TimerEvent: {}
+[16.183755] (-) TimerEvent: {}
+[16.284648] (-) TimerEvent: {}
+[16.385369] (-) TimerEvent: {}
+[16.499629] (-) TimerEvent: {}
+[16.611086] (-) TimerEvent: {}
+[16.717905] (-) TimerEvent: {}
+[16.821263] (-) TimerEvent: {}
+[16.925781] (-) TimerEvent: {}
+[17.030200] (-) TimerEvent: {}
+[17.138908] (-) TimerEvent: {}
+[17.250522] (-) TimerEvent: {}
+[17.359913] (-) TimerEvent: {}
+[17.460736] (-) TimerEvent: {}
+[17.566178] (-) TimerEvent: {}
+[17.669476] (-) TimerEvent: {}
+[17.772842] (-) TimerEvent: {}
+[17.878473] (-) TimerEvent: {}
+[17.979473] (-) TimerEvent: {}
+[18.082350] (-) TimerEvent: {}
+[18.184934] (-) TimerEvent: {}
+[18.291536] (-) TimerEvent: {}
+[18.396116] (-) TimerEvent: {}
+[18.498786] (-) TimerEvent: {}
+[18.605971] (-) TimerEvent: {}
+[18.716167] (-) TimerEvent: {}
+[18.817207] (-) TimerEvent: {}
+[18.923210] (-) TimerEvent: {}
+[19.024988] (-) TimerEvent: {}
+[19.129821] (-) TimerEvent: {}
+[19.233510] (-) TimerEvent: {}
+[19.337355] (-) TimerEvent: {}
+[19.442883] (-) TimerEvent: {}
+[19.548812] (-) TimerEvent: {}
+[19.653120] (-) TimerEvent: {}
+[19.754449] (-) TimerEvent: {}
+[19.861353] (-) TimerEvent: {}
+[19.961949] (-) TimerEvent: {}
+[20.075161] (-) TimerEvent: {}
+[20.180035] (-) TimerEvent: {}
+[20.283025] (-) TimerEvent: {}
+[20.389895] (-) TimerEvent: {}
+[20.491200] (-) TimerEvent: {}
+[20.599608] (-) TimerEvent: {}
+[20.702423] (-) TimerEvent: {}
+[20.806331] (-) TimerEvent: {}
+[20.912324] (-) TimerEvent: {}
+[21.025721] (-) TimerEvent: {}
+[21.129646] (-) TimerEvent: {}
+[21.233586] (-) TimerEvent: {}
+[21.338070] (-) TimerEvent: {}
+[21.438985] (-) TimerEvent: {}
+[21.544360] (-) TimerEvent: {}
+[21.653452] (-) TimerEvent: {}
+[21.755043] (-) TimerEvent: {}
+[21.859490] (-) TimerEvent: {}
+[21.963853] (-) TimerEvent: {}
+[22.071890] (-) TimerEvent: {}
+[22.181352] (-) TimerEvent: {}
+[22.285460] (-) TimerEvent: {}
+[22.389149] (-) TimerEvent: {}
+[22.496479] (-) TimerEvent: {}
+[22.614126] (-) TimerEvent: {}
+[22.716053] (-) TimerEvent: {}
+[22.820163] (-) TimerEvent: {}
+[22.921410] (-) TimerEvent: {}
+[23.023218] (-) TimerEvent: {}
+[23.136587] (-) TimerEvent: {}
+[23.240173] (-) TimerEvent: {}
+[23.341809] (-) TimerEvent: {}
+[23.443139] (-) TimerEvent: {}
+[23.547170] (-) TimerEvent: {}
+[23.650029] (-) TimerEvent: {}
+[23.756657] (-) TimerEvent: {}
+[23.862216] (-) TimerEvent: {}
+[23.964259] (-) TimerEvent: {}
+[24.071350] (-) TimerEvent: {}
+[24.175406] (-) TimerEvent: {}
+[24.283246] (-) TimerEvent: {}
+[24.389788] (-) TimerEvent: {}
+[24.490773] (-) TimerEvent: {}
+[24.593427] (-) TimerEvent: {}
+[24.702300] (-) TimerEvent: {}
+[24.806351] (-) TimerEvent: {}
+[24.916064] (-) TimerEvent: {}
+[25.018149] (-) TimerEvent: {}
+[25.119345] (-) TimerEvent: {}
+[25.221534] (-) TimerEvent: {}
+[25.325153] (-) TimerEvent: {}
+[25.442264] (-) TimerEvent: {}
+[25.548806] (-) TimerEvent: {}
+[25.651887] (-) TimerEvent: {}
+[25.756798] (-) TimerEvent: {}
+[25.858372] (-) TimerEvent: {}
+[25.968022] (-) TimerEvent: {}
+[26.068892] (-) TimerEvent: {}
+[26.172144] (-) TimerEvent: {}
+[26.278316] (-) TimerEvent: {}
+[26.391076] (-) TimerEvent: {}
+[26.502874] (-) TimerEvent: {}
+[26.608438] (-) TimerEvent: {}
+[26.709121] (-) TimerEvent: {}
+[26.814026] (-) TimerEvent: {}
+[26.917135] (-) TimerEvent: {}
+[27.020504] (-) TimerEvent: {}
+[27.128506] (-) TimerEvent: {}
+[27.229571] (-) TimerEvent: {}
+[27.334452] (-) TimerEvent: {}
+[27.449156] (-) TimerEvent: {}
+[27.558732] (-) TimerEvent: {}
+[27.659986] (-) TimerEvent: {}
+[27.775991] (-) TimerEvent: {}
+[27.876668] (-) TimerEvent: {}
+[27.978171] (-) TimerEvent: {}
+[28.079426] (-) TimerEvent: {}
+[28.180654] (-) TimerEvent: {}
+[28.288637] (-) TimerEvent: {}
+[28.392379] (-) TimerEvent: {}
+[28.500441] (-) TimerEvent: {}
+[28.607882] (-) TimerEvent: {}
+[28.708719] (-) TimerEvent: {}
+[28.813499] (-) TimerEvent: {}
+[28.919168] (-) TimerEvent: {}
+[29.023546] (-) TimerEvent: {}
+[29.127363] (-) TimerEvent: {}
+[29.235111] (-) TimerEvent: {}
+[29.339097] (-) TimerEvent: {}
+[29.448042] (-) TimerEvent: {}
+[29.552230] (-) TimerEvent: {}
+[29.654674] (-) TimerEvent: {}
+[29.756077] (-) TimerEvent: {}
+[29.856845] (-) TimerEvent: {}
+[29.959004] (-) TimerEvent: {}
+[30.060734] (-) TimerEvent: {}
+[30.098558] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Tracker.dir/build.make:76: CMakeFiles/Tracker.dir/src/Tracker.cpp.o] Error 1\n'}
+[30.098901] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:654: CMakeFiles/Tracker.dir/all] Error 2\n'}
+[30.100999] (comp_topic_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[30.107435] (comp_topic_rclcpp) CommandEnded: {'returncode': 2}
+[30.161525] (-) TimerEvent: {}
+[30.263481] (-) TimerEvent: {}
+[30.365272] (-) TimerEvent: {}
+[30.465845] (-) TimerEvent: {}
+[30.569426] (-) TimerEvent: {}
+[30.655227] (comp_topic_rclcpp) JobEnded: {'identifier': 'comp_topic_rclcpp', 'rc': 2}
+[30.666770] (-) EventReactorShutdown: {}

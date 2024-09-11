@@ -1,0 +1,71 @@
+[0.042s] Invoking command in '/home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ros/ros2proj/ComP_demo/install/comp_topic_rclcpp
+[0.509s] -- The C compiler identification is GNU 11.4.0
+[0.846s] -- The CXX compiler identification is GNU 11.4.0
+[0.895s] -- Detecting C compiler ABI info
+[1.166s] -- Detecting C compiler ABI info - done
+[1.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.191s] -- Detecting C compile features
+[1.194s] -- Detecting C compile features - done
+[1.208s] -- Detecting CXX compiler ABI info
+[1.510s] -- Detecting CXX compiler ABI info - done
+[1.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.525s] -- Detecting CXX compile features
+[1.529s] -- Detecting CXX compile features - done
+[1.547s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.714s] -- Found Python3: /home/ros/miniconda3/envs/ros2/bin/python3 (found version "3.10.14") found components: Interpreter 
+[3.083s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.271s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.281s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.317s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.688s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.702s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.008s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.107s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.269s] -- Looking for pthread.h
+[4.574s] -- Looking for pthread.h - found
+[4.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.825s] -- Found Threads: TRUE  
+[5.526s] -- Found OpenCV: /usr (found version "4.5.4") 
+[5.533s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.107s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.486s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[6.486s]   execute_process(/home/ros/miniconda3/envs/ros2/bin/python3 -m
+[6.486s]   rosidl_adapter --package-name comp_topic_rclcpp --arguments-file
+[6.486s]   /home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/rosidl_adapter__arguments__comp_topic_rclcpp.json
+[6.487s]   --output-dir
+[6.487s]   /home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp
+[6.490s]   --output-file
+[6.490s]   /home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp.idls)
+[6.490s]   returned error code 1:
+[6.490s] 
+[6.490s]   Traceback (most recent call last):
+[6.491s] 
+[6.491s]     File "/home/ros/miniconda3/envs/ros2/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[6.491s]       return _run_code(code, main_globals, None,
+[6.491s]     File "/home/ros/miniconda3/envs/ros2/lib/python3.10/runpy.py", line 86, in _run_code
+[6.494s]       exec(code, run_globals)
+[6.494s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[6.494s]       sys.exit(main())
+[6.495s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[6.495s]       abs_idl_file = convert_to_idl(
+[6.506s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[6.506s]       from rosidl_adapter.msg import convert_msg_to_idl
+[6.507s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[6.507s]       from rosidl_adapter.resource import expand_template
+[6.507s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[6.507s]       import em
+[6.507s] 
+[6.508s]   ModuleNotFoundError: No module named 'em'
+[6.508s] 
+[6.508s] Call Stack (most recent call first):
+[6.508s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[6.508s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[6.508s] 
+[6.509s] [0m
+[6.509s] -- Configuring incomplete, errors occurred!
+[6.509s] See also "/home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp/CMakeFiles/CMakeOutput.log".
+[6.549s] Invoked command in '/home/ros/ros2proj/ComP_demo/build/comp_topic_rclcpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(ros2) /usr/bin/cmake /home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ros/ros2proj/ComP_demo/install/comp_topic_rclcpp

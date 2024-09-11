@@ -1,0 +1,17 @@
+[0.060s] Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2
+[0.497s] [  8%] Built target comp_topic_rclcpp__rosidl_generator_c
+[0.628s] [ 10%] Built target comp_topic_rclcpp__cpp
+[0.962s] [ 14%] Built target CameraTimer
+[0.977s] [ 14%] Built target ament_cmake_python_copy_comp_topic_rclcpp
+[1.166s] [35m[1mConsolidate compiler generated dependencies of target Tracker[0m
+[1.246s] [ 18%] Built target Final
+[1.365s] [ 22%] Built target Tracker
+[1.413s] [35m[1mConsolidate compiler generated dependencies of target Lane[0m
+[1.639s] [ 28%] Built target Lane
+[1.667s] [ 36%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp
+[1.904s] [ 44%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c
+[1.962s] gmake[2]: *** [CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_introspection_c.dir/build.make:189: CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_introspection_c.dir/depend] Interrupt
+[1.962s] gmake[1]: *** [CMakeFiles/Makefile2:326: CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[1.962s] gmake[1]: *** [CMakeFiles/Makefile2:302: CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[1.963s] gmake: *** [Makefile:146: all] Interrupt
+[1.963s] Invoked command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2

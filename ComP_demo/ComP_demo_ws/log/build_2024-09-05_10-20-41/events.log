@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.002889] (comp_topic_rclcpp) JobQueued: {'identifier': 'comp_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.003034] (comp_topic_rclcpp) JobStarted: {'identifier': 'comp_topic_rclcpp'}
+[0.052015] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'cmake'}
+[0.064069] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'build'}
+[0.064227] (comp_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.204.2 64121 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52f4e5f3-9cfd-4e0e-bd91-e6d950decbe8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0dbcad9fb0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp'), ('SSH_CONNECTION', '192.168.204.2 64121 192.168.204.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097949] (-) TimerEvent: {}
+[0.198798] (-) TimerEvent: {}
+[0.299470] (-) TimerEvent: {}
+[0.386045] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399958] (-) TimerEvent: {}
+[0.507387] (-) TimerEvent: {}
+[0.608320] (-) TimerEvent: {}
+[0.709467] (-) TimerEvent: {}
+[0.814211] (-) TimerEvent: {}
+[0.916285] (-) TimerEvent: {}
+[1.020922] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.021397] (-) TimerEvent: {}
+[1.125109] (-) TimerEvent: {}
+[1.211416] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.225353] (-) TimerEvent: {}
+[1.228955] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.261856] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.329543] (-) TimerEvent: {}
+[1.335874] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.422544] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.432129] (-) TimerEvent: {}
+[1.532911] (-) TimerEvent: {}
+[1.634378] (-) TimerEvent: {}
+[1.726065] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.734987] (-) TimerEvent: {}
+[1.751825] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.838174] (-) TimerEvent: {}
+[1.940749] (-) TimerEvent: {}
+[2.041598] (-) TimerEvent: {}
+[2.061640] (comp_topic_rclcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.142759] (-) TimerEvent: {}
+[2.244902] (-) TimerEvent: {}
+[2.346629] (-) TimerEvent: {}
+[2.450683] (-) TimerEvent: {}
+[2.551680] (-) TimerEvent: {}
+[2.591736] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.658408] (-) TimerEvent: {}
+[2.760203] (-) TimerEvent: {}
+[2.861931] (-) TimerEvent: {}
+[2.966249] (-) TimerEvent: {}
+[3.057358] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.066796] (-) TimerEvent: {}
+[3.169505] (-) TimerEvent: {}
+[3.273437] (-) TimerEvent: {}
+[3.379886] (-) TimerEvent: {}
+[3.494164] (-) TimerEvent: {}
+[3.595147] (-) TimerEvent: {}
+[3.696080] (-) TimerEvent: {}
+[3.798167] (-) TimerEvent: {}
+[3.901016] (-) TimerEvent: {}
+[4.012962] (-) TimerEvent: {}
+[4.114218] (-) TimerEvent: {}
+[4.221421] (-) TimerEvent: {}
+[4.267490] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.329902] (-) TimerEvent: {}
+[4.434821] (-) TimerEvent: {}
+[4.539752] (-) TimerEvent: {}
+[4.641259] (-) TimerEvent: {}
+[4.750142] (-) TimerEvent: {}
+[4.856269] (-) TimerEvent: {}
+[4.957566] (-) TimerEvent: {}
+[5.059324] (-) TimerEvent: {}
+[5.161626] (-) TimerEvent: {}
+[5.266049] (-) TimerEvent: {}
+[5.369394] (-) TimerEvent: {}
+[5.476121] (-) TimerEvent: {}
+[5.576914] (-) TimerEvent: {}
+[5.677698] (-) TimerEvent: {}
+[5.766144] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.784192] (-) TimerEvent: {}
+[5.889153] (-) TimerEvent: {}
+[5.989857] (-) TimerEvent: {}
+[6.093073] (-) TimerEvent: {}
+[6.196947] (-) TimerEvent: {}
+[6.296777] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.297236] (-) TimerEvent: {}
+[6.407024] (-) TimerEvent: {}
+[6.440671] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.507952] (-) TimerEvent: {}
+[6.559193] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.559621] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.559835] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.609239] (-) TimerEvent: {}
+[6.704950] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.710062] (-) TimerEvent: {}
+[6.812855] (comp_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.813782] (-) TimerEvent: {}
+[6.818838] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/include\n'}
+[6.819298] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.824996] (comp_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.837602] (comp_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.838549] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.839371] (comp_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.869515] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.919866] (-) TimerEvent: {}
+[7.030194] (-) TimerEvent: {}
+[7.132832] (-) TimerEvent: {}
+[7.239499] (-) TimerEvent: {}
+[7.343794] (-) TimerEvent: {}
+[7.398895] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Generating done\n'}
+[7.432938] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp\n'}
+[7.444657] (-) TimerEvent: {}
+[7.557722] (-) TimerEvent: {}
+[7.606194] (comp_topic_rclcpp) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.678304] (comp_topic_rclcpp) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.678771] (-) TimerEvent: {}
+[7.784854] (-) TimerEvent: {}
+[7.890754] (-) TimerEvent: {}
+[7.994998] (-) TimerEvent: {}
+[8.095709] (-) TimerEvent: {}
+[8.197305] (-) TimerEvent: {}
+[8.298323] (-) TimerEvent: {}
+[8.401098] (-) TimerEvent: {}
+[8.507576] (-) TimerEvent: {}
+[8.611498] (-) TimerEvent: {}
+[8.716543] (-) TimerEvent: {}
+[8.821420] (-) TimerEvent: {}
+[8.927096] (-) TimerEvent: {}
+[9.030912] (-) TimerEvent: {}
+[9.132918] (-) TimerEvent: {}
+[9.235030] (-) TimerEvent: {}
+[9.343918] (-) TimerEvent: {}
+[9.446948] (-) TimerEvent: {}
+[9.567371] (-) TimerEvent: {}
+[9.688433] (-) TimerEvent: {}
+[9.792359] (-) TimerEvent: {}
+[9.896327] (-) TimerEvent: {}
+[10.003201] (-) TimerEvent: {}
+[10.104695] (-) TimerEvent: {}
+[10.219038] (-) TimerEvent: {}
+[10.325614] (-) TimerEvent: {}
+[10.442200] (-) TimerEvent: {}
+[10.558285] (-) TimerEvent: {}
+[10.668783] (-) TimerEvent: {}
+[10.780891] (-) TimerEvent: {}
+[10.786366] (comp_topic_rclcpp) StdoutLine: {'line': b'[  2%] Built target comp_topic_rclcpp__cpp\n'}
+[10.885800] (-) TimerEvent: {}
+[10.991589] (-) TimerEvent: {}
+[11.058664] (comp_topic_rclcpp) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_comp_topic_rclcpp\n'}
+[11.091944] (-) TimerEvent: {}
+[11.141733] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target CameraTimer\x1b[0m\n'}
+[11.142179] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comp_topic_rclcpp__rosidl_generator_c\x1b[0m\n'}
+[11.200627] (-) TimerEvent: {}
+[11.219444] (comp_topic_rclcpp) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/comp_topic_rclcpp__rosidl_generator_c.dir/rosidl_generator_c/comp_topic_rclcpp/msg/detail/yolo_piece__functions.c.o\x1b[0m\n'}
+[11.237510] (comp_topic_rclcpp) StdoutLine: {'line': b'[  6%] Built target CameraTimer\n'}
+[11.303034] (comp_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Lane\x1b[0m\n'}
+[11.303988] (-) TimerEvent: {}
+[11.421275] (-) TimerEvent: {}
+[11.437070] (comp_topic_rclcpp) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/Lane.dir/src/Lane.cpp.o\x1b[0m\n'}
+[11.523728] (-) TimerEvent: {}
+[11.627859] (-) TimerEvent: {}
+[11.714569] (comp_topic_rclcpp) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/comp_topic_rclcpp__rosidl_generator_c.dir/rosidl_generator_c/comp_topic_rclcpp/msg/detail/yolo_result__functions.c.o\x1b[0m\n'}
+[11.731918] (-) TimerEvent: {}
+[11.847859] (-) TimerEvent: {}
+[11.949052] (-) TimerEvent: {}
+[11.997217] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/comp_topic_rclcpp__rosidl_generator_c.dir/rosidl_generator_c/comp_topic_rclcpp/msg/detail/tracker_result__functions.c.o\x1b[0m\n'}
+[12.049513] (-) TimerEvent: {}
+[12.153186] (-) TimerEvent: {}
+[12.257347] (-) TimerEvent: {}
+[12.333362] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/comp_topic_rclcpp__rosidl_generator_c.dir/rosidl_generator_c/comp_topic_rclcpp/msg/detail/lane_result__functions.c.o\x1b[0m\n'}
+[12.361821] (-) TimerEvent: {}
+[12.464248] (-) TimerEvent: {}
+[12.578136] (-) TimerEvent: {}
+[12.681875] (-) TimerEvent: {}
+[12.698328] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/comp_topic_rclcpp__rosidl_generator_c.dir/rosidl_generator_c/comp_topic_rclcpp/msg/detail/point_detect__functions.c.o\x1b[0m\n'}
+[12.718822] (comp_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcomp_topic_rclcpp/msg/lane_result.hpp: No such file or directory\n'}
+[12.719569] (comp_topic_rclcpp) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"comp_topic_rclcpp/msg/lane_result.hpp"\x1b[m\x1b[K\n'}
+[12.719700] (comp_topic_rclcpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.719765] (comp_topic_rclcpp) StderrLine: {'line': b'compilation terminated.\n'}
+[12.738878] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Lane.dir/build.make:76: CMakeFiles/Lane.dir/src/Lane.cpp.o] Error 1\n'}
+[12.740333] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:680: CMakeFiles/Lane.dir/all] Error 2\n'}
+[12.740471] (comp_topic_rclcpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[12.782211] (-) TimerEvent: {}
+[12.885955] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libcomp_topic_rclcpp__rosidl_generator_c.so\x1b[0m\n'}
+[12.887211] (-) TimerEvent: {}
+[12.993964] (-) TimerEvent: {}
+[13.070044] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 14%] Built target comp_topic_rclcpp__rosidl_generator_c\n'}
+[13.076143] (comp_topic_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.093812] (comp_topic_rclcpp) CommandEnded: {'returncode': 2}
+[13.098935] (-) TimerEvent: {}
+[13.199638] (-) TimerEvent: {}
+[13.304538] (-) TimerEvent: {}
+[13.412511] (-) TimerEvent: {}
+[13.514832] (-) TimerEvent: {}
+[13.622060] (-) TimerEvent: {}
+[13.649338] (comp_topic_rclcpp) JobEnded: {'identifier': 'comp_topic_rclcpp', 'rc': 2}
+[13.661539] (-) EventReactorShutdown: {}

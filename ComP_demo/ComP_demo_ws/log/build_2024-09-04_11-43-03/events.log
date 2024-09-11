@@ -1,0 +1,739 @@
+[0.000000] (-) TimerEvent: {}
+[0.000886] (comp_topic_rclcpp) JobQueued: {'identifier': 'comp_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.002385] (comp_topic_rclcpp) JobStarted: {'identifier': 'comp_topic_rclcpp'}
+[0.035799] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'cmake'}
+[0.038747] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'build'}
+[0.041912] (comp_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', '--', '-j2', '-l2'], 'cwd': '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.204.2 64121 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52f4e5f3-9cfd-4e0e-bd91-e6d950decbe8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0dbcad9fb0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp'), ('SSH_CONNECTION', '192.168.204.2 64121 192.168.204.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099411] (-) TimerEvent: {}
+[0.202475] (-) TimerEvent: {}
+[0.309043] (-) TimerEvent: {}
+[0.316681] (comp_topic_rclcpp) StdoutLine: {'line': b'[  1%] Built target comp_topic_rclcpp__cpp\n'}
+[0.398305] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c\n'}
+[0.414484] (-) TimerEvent: {}
+[0.520236] (-) TimerEvent: {}
+[0.585782] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp\n'}
+[0.622091] (-) TimerEvent: {}
+[0.695490] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 13%] Built target CameraTimer\n'}
+[0.721377] (-) TimerEvent: {}
+[0.808359] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 18%] Built target Lane\n'}
+[0.821769] (-) TimerEvent: {}
+[0.892820] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 27%] Built target comp_topic_rclcpp__rosidl_typesupport_cpp\n'}
+[0.923147] (-) TimerEvent: {}
+[0.973221] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 36%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c\n'}
+[1.025756] (-) TimerEvent: {}
+[1.059903] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 44%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp\n'}
+[1.126185] (-) TimerEvent: {}
+[1.140524] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 53%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c\n'}
+[1.218240] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 62%] Built target comp_topic_rclcpp__rosidl_typesupport_c\n'}
+[1.226641] (-) TimerEvent: {}
+[1.307179] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 70%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_cpp\n'}
+[1.328920] (-) TimerEvent: {}
+[1.431746] (-) TimerEvent: {}
+[1.535686] (-) TimerEvent: {}
+[1.639700] (-) TimerEvent: {}
+[1.744131] (-) TimerEvent: {}
+[1.845118] (-) TimerEvent: {}
+[1.949225] (-) TimerEvent: {}
+[2.052706] (-) TimerEvent: {}
+[2.169295] (-) TimerEvent: {}
+[2.270293] (-) TimerEvent: {}
+[2.302945] (comp_topic_rclcpp) StdoutLine: {'line': b'running egg_info\n'}
+[2.313188] (comp_topic_rclcpp) StdoutLine: {'line': b'writing comp_topic_rclcpp.egg-info/PKG-INFO\n'}
+[2.314883] (comp_topic_rclcpp) StdoutLine: {'line': b'writing dependency_links to comp_topic_rclcpp.egg-info/dependency_links.txt\n'}
+[2.318478] (comp_topic_rclcpp) StdoutLine: {'line': b'writing top-level names to comp_topic_rclcpp.egg-info/top_level.txt\n'}
+[2.328167] (comp_topic_rclcpp) StdoutLine: {'line': b"reading manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'\n"}
+[2.341081] (comp_topic_rclcpp) StdoutLine: {'line': b"writing manifest file 'comp_topic_rclcpp.egg-info/SOURCES.txt'\n"}
+[2.370874] (-) TimerEvent: {}
+[2.413273] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_comp_topic_rclcpp_egg\n'}
+[2.473548] (-) TimerEvent: {}
+[2.496516] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 74%] Built target Final\n'}
+[2.575589] (-) TimerEvent: {}
+[2.615246] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/Tracker.dir/src/Tracker.cpp.o\x1b[0m\n'}
+[2.676293] (-) TimerEvent: {}
+[2.782841] (-) TimerEvent: {}
+[2.889957] (-) TimerEvent: {}
+[2.993645] (-) TimerEvent: {}
+[3.094756] (-) TimerEvent: {}
+[3.200999] (-) TimerEvent: {}
+[3.304346] (-) TimerEvent: {}
+[3.405434] (-) TimerEvent: {}
+[3.506665] (-) TimerEvent: {}
+[3.613676] (-) TimerEvent: {}
+[3.714351] (-) TimerEvent: {}
+[3.816776] (-) TimerEvent: {}
+[3.917718] (-) TimerEvent: {}
+[4.022141] (-) TimerEvent: {}
+[4.125283] (-) TimerEvent: {}
+[4.236314] (-) TimerEvent: {}
+[4.346303] (-) TimerEvent: {}
+[4.459489] (-) TimerEvent: {}
+[4.564786] (-) TimerEvent: {}
+[4.668043] (-) TimerEvent: {}
+[4.769904] (-) TimerEvent: {}
+[4.876097] (-) TimerEvent: {}
+[4.980225] (-) TimerEvent: {}
+[5.081865] (-) TimerEvent: {}
+[5.189233] (-) TimerEvent: {}
+[5.290501] (-) TimerEvent: {}
+[5.393443] (-) TimerEvent: {}
+[5.496250] (-) TimerEvent: {}
+[5.605788] (-) TimerEvent: {}
+[5.709062] (-) TimerEvent: {}
+[5.811806] (-) TimerEvent: {}
+[5.918017] (-) TimerEvent: {}
+[6.025720] (-) TimerEvent: {}
+[6.127037] (-) TimerEvent: {}
+[6.229372] (-) TimerEvent: {}
+[6.334839] (-) TimerEvent: {}
+[6.443216] (-) TimerEvent: {}
+[6.548235] (-) TimerEvent: {}
+[6.648927] (-) TimerEvent: {}
+[6.755173] (-) TimerEvent: {}
+[6.859061] (-) TimerEvent: {}
+[6.960636] (-) TimerEvent: {}
+[7.063216] (-) TimerEvent: {}
+[7.169308] (-) TimerEvent: {}
+[7.272223] (-) TimerEvent: {}
+[7.374741] (-) TimerEvent: {}
+[7.476472] (-) TimerEvent: {}
+[7.578673] (-) TimerEvent: {}
+[7.691506] (-) TimerEvent: {}
+[7.793335] (-) TimerEvent: {}
+[7.897838] (-) TimerEvent: {}
+[7.999070] (-) TimerEvent: {}
+[8.105723] (-) TimerEvent: {}
+[8.215808] (-) TimerEvent: {}
+[8.317217] (-) TimerEvent: {}
+[8.418081] (-) TimerEvent: {}
+[8.525724] (-) TimerEvent: {}
+[8.630325] (-) TimerEvent: {}
+[8.738084] (-) TimerEvent: {}
+[8.838907] (-) TimerEvent: {}
+[8.945691] (-) TimerEvent: {}
+[9.046504] (-) TimerEvent: {}
+[9.150567] (-) TimerEvent: {}
+[9.255182] (-) TimerEvent: {}
+[9.361344] (-) TimerEvent: {}
+[9.466244] (-) TimerEvent: {}
+[9.569760] (-) TimerEvent: {}
+[9.671684] (-) TimerEvent: {}
+[9.772672] (-) TimerEvent: {}
+[9.874951] (-) TimerEvent: {}
+[9.976757] (-) TimerEvent: {}
+[10.089036] (-) TimerEvent: {}
+[10.189814] (-) TimerEvent: {}
+[10.291071] (-) TimerEvent: {}
+[10.392833] (-) TimerEvent: {}
+[10.495025] (-) TimerEvent: {}
+[10.598005] (-) TimerEvent: {}
+[10.699164] (-) TimerEvent: {}
+[10.803657] (-) TimerEvent: {}
+[10.904748] (-) TimerEvent: {}
+[11.006743] (-) TimerEvent: {}
+[11.109450] (-) TimerEvent: {}
+[11.223234] (-) TimerEvent: {}
+[11.324721] (-) TimerEvent: {}
+[11.426114] (-) TimerEvent: {}
+[11.527095] (-) TimerEvent: {}
+[11.633196] (-) TimerEvent: {}
+[11.733984] (-) TimerEvent: {}
+[11.835789] (-) TimerEvent: {}
+[11.937255] (-) TimerEvent: {}
+[12.038406] (-) TimerEvent: {}
+[12.145385] (-) TimerEvent: {}
+[12.247859] (-) TimerEvent: {}
+[12.365614] (-) TimerEvent: {}
+[12.470516] (-) TimerEvent: {}
+[12.571319] (-) TimerEvent: {}
+[12.673920] (-) TimerEvent: {}
+[12.775485] (-) TimerEvent: {}
+[12.877915] (-) TimerEvent: {}
+[12.979634] (-) TimerEvent: {}
+[13.083117] (-) TimerEvent: {}
+[13.187882] (-) TimerEvent: {}
+[13.291538] (-) TimerEvent: {}
+[13.398622] (-) TimerEvent: {}
+[13.510929] (-) TimerEvent: {}
+[13.616465] (-) TimerEvent: {}
+[13.725749] (-) TimerEvent: {}
+[13.826393] (-) TimerEvent: {}
+[13.930754] (-) TimerEvent: {}
+[14.032312] (-) TimerEvent: {}
+[14.137526] (-) TimerEvent: {}
+[14.239233] (-) TimerEvent: {}
+[14.347440] (-) TimerEvent: {}
+[14.450967] (-) TimerEvent: {}
+[14.556603] (-) TimerEvent: {}
+[14.674802] (-) TimerEvent: {}
+[14.783787] (-) TimerEvent: {}
+[14.887344] (-) TimerEvent: {}
+[14.995433] (-) TimerEvent: {}
+[15.097318] (-) TimerEvent: {}
+[15.200630] (-) TimerEvent: {}
+[15.322459] (-) TimerEvent: {}
+[15.425274] (-) TimerEvent: {}
+[15.533987] (-) TimerEvent: {}
+[15.636161] (-) TimerEvent: {}
+[15.745398] (-) TimerEvent: {}
+[15.852407] (-) TimerEvent: {}
+[15.956382] (-) TimerEvent: {}
+[16.057639] (-) TimerEvent: {}
+[16.162199] (-) TimerEvent: {}
+[16.265595] (-) TimerEvent: {}
+[16.370772] (-) TimerEvent: {}
+[16.475122] (-) TimerEvent: {}
+[16.595447] (-) TimerEvent: {}
+[16.696856] (-) TimerEvent: {}
+[16.802210] (-) TimerEvent: {}
+[16.906244] (-) TimerEvent: {}
+[17.024746] (-) TimerEvent: {}
+[17.125840] (-) TimerEvent: {}
+[17.228233] (-) TimerEvent: {}
+[17.329503] (-) TimerEvent: {}
+[17.436266] (-) TimerEvent: {}
+[17.541987] (-) TimerEvent: {}
+[17.645390] (-) TimerEvent: {}
+[17.749646] (-) TimerEvent: {}
+[17.852237] (-) TimerEvent: {}
+[17.955196] (-) TimerEvent: {}
+[18.060159] (-) TimerEvent: {}
+[18.163530] (-) TimerEvent: {}
+[18.267457] (-) TimerEvent: {}
+[18.380076] (-) TimerEvent: {}
+[18.485646] (-) TimerEvent: {}
+[18.586649] (-) TimerEvent: {}
+[18.696629] (-) TimerEvent: {}
+[18.799813] (-) TimerEvent: {}
+[18.903216] (-) TimerEvent: {}
+[19.004487] (-) TimerEvent: {}
+[19.107955] (-) TimerEvent: {}
+[19.208631] (-) TimerEvent: {}
+[19.311964] (-) TimerEvent: {}
+[19.416712] (-) TimerEvent: {}
+[19.517446] (-) TimerEvent: {}
+[19.618567] (-) TimerEvent: {}
+[19.719388] (-) TimerEvent: {}
+[19.822820] (-) TimerEvent: {}
+[19.927255] (-) TimerEvent: {}
+[20.031300] (-) TimerEvent: {}
+[20.135434] (-) TimerEvent: {}
+[20.236142] (-) TimerEvent: {}
+[20.339174] (-) TimerEvent: {}
+[20.440171] (-) TimerEvent: {}
+[20.542346] (-) TimerEvent: {}
+[20.655693] (-) TimerEvent: {}
+[20.758741] (-) TimerEvent: {}
+[20.872149] (-) TimerEvent: {}
+[20.974689] (-) TimerEvent: {}
+[21.076983] (-) TimerEvent: {}
+[21.182035] (-) TimerEvent: {}
+[21.291519] (-) TimerEvent: {}
+[21.392821] (-) TimerEvent: {}
+[21.493996] (-) TimerEvent: {}
+[21.602499] (-) TimerEvent: {}
+[21.710779] (-) TimerEvent: {}
+[21.815878] (-) TimerEvent: {}
+[21.921404] (-) TimerEvent: {}
+[22.024248] (-) TimerEvent: {}
+[22.125717] (-) TimerEvent: {}
+[22.230298] (-) TimerEvent: {}
+[22.333589] (-) TimerEvent: {}
+[22.439855] (-) TimerEvent: {}
+[22.543228] (-) TimerEvent: {}
+[22.645264] (-) TimerEvent: {}
+[22.752576] (-) TimerEvent: {}
+[22.859853] (-) TimerEvent: {}
+[22.969277] (-) TimerEvent: {}
+[23.084230] (-) TimerEvent: {}
+[23.188144] (-) TimerEvent: {}
+[23.295437] (-) TimerEvent: {}
+[23.404637] (-) TimerEvent: {}
+[23.526212] (-) TimerEvent: {}
+[23.633428] (-) TimerEvent: {}
+[23.734019] (-) TimerEvent: {}
+[23.842297] (-) TimerEvent: {}
+[23.943059] (-) TimerEvent: {}
+[24.047322] (-) TimerEvent: {}
+[24.148614] (-) TimerEvent: {}
+[24.256671] (-) TimerEvent: {}
+[24.360177] (-) TimerEvent: {}
+[24.474276] (-) TimerEvent: {}
+[24.576682] (-) TimerEvent: {}
+[24.689196] (-) TimerEvent: {}
+[24.791613] (-) TimerEvent: {}
+[24.893269] (-) TimerEvent: {}
+[25.005397] (-) TimerEvent: {}
+[25.110553] (-) TimerEvent: {}
+[25.220064] (-) TimerEvent: {}
+[25.320959] (-) TimerEvent: {}
+[25.424803] (-) TimerEvent: {}
+[25.535731] (-) TimerEvent: {}
+[25.640376] (-) TimerEvent: {}
+[25.742708] (-) TimerEvent: {}
+[25.855468] (-) TimerEvent: {}
+[25.956121] (-) TimerEvent: {}
+[26.058694] (-) TimerEvent: {}
+[26.165638] (-) TimerEvent: {}
+[26.267918] (-) TimerEvent: {}
+[26.372756] (-) TimerEvent: {}
+[26.475260] (-) TimerEvent: {}
+[26.585573] (-) TimerEvent: {}
+[26.690644] (-) TimerEvent: {}
+[26.795345] (-) TimerEvent: {}
+[26.897924] (-) TimerEvent: {}
+[27.004171] (-) TimerEvent: {}
+[27.110857] (-) TimerEvent: {}
+[27.215818] (-) TimerEvent: {}
+[27.330441] (-) TimerEvent: {}
+[27.431945] (-) TimerEvent: {}
+[27.534567] (-) TimerEvent: {}
+[27.636803] (-) TimerEvent: {}
+[27.739226] (-) TimerEvent: {}
+[27.843308] (-) TimerEvent: {}
+[27.944063] (-) TimerEvent: {}
+[28.047623] (-) TimerEvent: {}
+[28.150900] (-) TimerEvent: {}
+[28.252002] (-) TimerEvent: {}
+[28.358701] (-) TimerEvent: {}
+[28.459629] (-) TimerEvent: {}
+[28.561775] (-) TimerEvent: {}
+[28.665879] (-) TimerEvent: {}
+[28.772164] (-) TimerEvent: {}
+[28.878838] (-) TimerEvent: {}
+[28.982464] (-) TimerEvent: {}
+[29.096269] (-) TimerEvent: {}
+[29.197311] (-) TimerEvent: {}
+[29.306412] (-) TimerEvent: {}
+[29.422333] (-) TimerEvent: {}
+[29.523187] (-) TimerEvent: {}
+[29.626466] (-) TimerEvent: {}
+[29.728944] (-) TimerEvent: {}
+[29.842048] (-) TimerEvent: {}
+[29.942832] (-) TimerEvent: {}
+[30.045701] (-) TimerEvent: {}
+[30.150923] (-) TimerEvent: {}
+[30.254538] (-) TimerEvent: {}
+[30.357760] (-) TimerEvent: {}
+[30.465123] (-) TimerEvent: {}
+[30.575290] (-) TimerEvent: {}
+[30.687755] (-) TimerEvent: {}
+[30.788966] (-) TimerEvent: {}
+[30.893014] (-) TimerEvent: {}
+[30.996389] (-) TimerEvent: {}
+[31.099551] (-) TimerEvent: {}
+[31.205246] (-) TimerEvent: {}
+[31.308979] (-) TimerEvent: {}
+[31.415366] (-) TimerEvent: {}
+[31.523254] (-) TimerEvent: {}
+[31.625786] (-) TimerEvent: {}
+[31.739093] (-) TimerEvent: {}
+[31.842193] (-) TimerEvent: {}
+[31.942633] (-) TimerEvent: {}
+[32.045544] (-) TimerEvent: {}
+[32.154796] (-) TimerEvent: {}
+[32.266382] (-) TimerEvent: {}
+[32.374241] (-) TimerEvent: {}
+[32.482822] (-) TimerEvent: {}
+[32.585301] (-) TimerEvent: {}
+[32.688853] (-) TimerEvent: {}
+[32.793848] (-) TimerEvent: {}
+[32.904819] (-) TimerEvent: {}
+[33.008840] (-) TimerEvent: {}
+[33.123489] (-) TimerEvent: {}
+[33.225527] (-) TimerEvent: {}
+[33.328502] (-) TimerEvent: {}
+[33.432703] (-) TimerEvent: {}
+[33.534952] (-) TimerEvent: {}
+[33.637784] (-) TimerEvent: {}
+[33.739471] (-) TimerEvent: {}
+[33.844980] (-) TimerEvent: {}
+[33.950444] (-) TimerEvent: {}
+[34.064581] (-) TimerEvent: {}
+[34.168513] (-) TimerEvent: {}
+[34.275473] (-) TimerEvent: {}
+[34.382373] (-) TimerEvent: {}
+[34.484112] (-) TimerEvent: {}
+[34.590011] (-) TimerEvent: {}
+[34.695532] (-) TimerEvent: {}
+[34.805012] (-) TimerEvent: {}
+[34.918942] (-) TimerEvent: {}
+[35.024500] (-) TimerEvent: {}
+[35.134942] (-) TimerEvent: {}
+[35.239012] (-) TimerEvent: {}
+[35.342222] (-) TimerEvent: {}
+[35.443848] (-) TimerEvent: {}
+[35.554392] (-) TimerEvent: {}
+[35.666851] (-) TimerEvent: {}
+[35.772140] (-) TimerEvent: {}
+[35.874664] (-) TimerEvent: {}
+[35.976419] (-) TimerEvent: {}
+[36.079482] (-) TimerEvent: {}
+[36.180810] (-) TimerEvent: {}
+[36.285182] (-) TimerEvent: {}
+[36.387627] (-) TimerEvent: {}
+[36.495644] (-) TimerEvent: {}
+[36.597134] (-) TimerEvent: {}
+[36.698525] (-) TimerEvent: {}
+[36.799955] (-) TimerEvent: {}
+[36.902475] (-) TimerEvent: {}
+[37.007859] (-) TimerEvent: {}
+[37.110408] (-) TimerEvent: {}
+[37.213747] (-) TimerEvent: {}
+[37.316385] (-) TimerEvent: {}
+[37.418031] (-) TimerEvent: {}
+[37.519826] (-) TimerEvent: {}
+[37.621325] (-) TimerEvent: {}
+[37.723258] (-) TimerEvent: {}
+[37.825229] (-) TimerEvent: {}
+[37.927180] (-) TimerEvent: {}
+[38.029295] (-) TimerEvent: {}
+[38.130832] (-) TimerEvent: {}
+[38.232922] (-) TimerEvent: {}
+[38.336461] (-) TimerEvent: {}
+[38.438670] (-) TimerEvent: {}
+[38.540175] (-) TimerEvent: {}
+[38.642077] (-) TimerEvent: {}
+[38.744175] (-) TimerEvent: {}
+[38.848375] (-) TimerEvent: {}
+[38.950870] (-) TimerEvent: {}
+[39.060089] (-) TimerEvent: {}
+[39.167527] (-) TimerEvent: {}
+[39.268855] (-) TimerEvent: {}
+[39.371162] (-) TimerEvent: {}
+[39.475137] (-) TimerEvent: {}
+[39.581756] (-) TimerEvent: {}
+[39.684033] (-) TimerEvent: {}
+[39.787801] (-) TimerEvent: {}
+[39.896862] (-) TimerEvent: {}
+[40.005657] (-) TimerEvent: {}
+[40.107894] (-) TimerEvent: {}
+[40.209534] (-) TimerEvent: {}
+[40.310198] (-) TimerEvent: {}
+[40.417055] (-) TimerEvent: {}
+[40.520165] (-) TimerEvent: {}
+[40.621906] (-) TimerEvent: {}
+[40.728224] (-) TimerEvent: {}
+[40.829077] (-) TimerEvent: {}
+[40.930261] (-) TimerEvent: {}
+[41.032190] (-) TimerEvent: {}
+[41.134200] (-) TimerEvent: {}
+[41.235936] (-) TimerEvent: {}
+[41.337912] (-) TimerEvent: {}
+[41.447093] (-) TimerEvent: {}
+[41.548964] (-) TimerEvent: {}
+[41.656906] (-) TimerEvent: {}
+[41.757508] (-) TimerEvent: {}
+[41.858181] (-) TimerEvent: {}
+[41.959610] (-) TimerEvent: {}
+[42.065681] (-) TimerEvent: {}
+[42.166245] (-) TimerEvent: {}
+[42.267595] (-) TimerEvent: {}
+[42.369098] (-) TimerEvent: {}
+[42.475430] (-) TimerEvent: {}
+[42.577151] (-) TimerEvent: {}
+[42.685236] (-) TimerEvent: {}
+[42.786895] (-) TimerEvent: {}
+[42.888534] (-) TimerEvent: {}
+[42.991082] (-) TimerEvent: {}
+[43.094202] (-) TimerEvent: {}
+[43.195362] (-) TimerEvent: {}
+[43.297184] (-) TimerEvent: {}
+[43.398657] (-) TimerEvent: {}
+[43.500403] (-) TimerEvent: {}
+[43.605411] (-) TimerEvent: {}
+[43.717571] (-) TimerEvent: {}
+[43.827832] (-) TimerEvent: {}
+[43.933876] (-) TimerEvent: {}
+[44.044158] (-) TimerEvent: {}
+[44.150487] (-) TimerEvent: {}
+[44.253886] (-) TimerEvent: {}
+[44.365971] (-) TimerEvent: {}
+[44.474091] (-) TimerEvent: {}
+[44.575847] (-) TimerEvent: {}
+[44.677415] (-) TimerEvent: {}
+[44.786901] (-) TimerEvent: {}
+[44.890226] (-) TimerEvent: {}
+[44.995141] (-) TimerEvent: {}
+[45.097457] (-) TimerEvent: {}
+[45.199210] (-) TimerEvent: {}
+[45.306047] (-) TimerEvent: {}
+[45.408251] (-) TimerEvent: {}
+[45.514468] (-) TimerEvent: {}
+[45.624458] (-) TimerEvent: {}
+[45.725364] (-) TimerEvent: {}
+[45.826754] (-) TimerEvent: {}
+[45.927541] (-) TimerEvent: {}
+[46.030291] (-) TimerEvent: {}
+[46.135477] (-) TimerEvent: {}
+[46.240284] (-) TimerEvent: {}
+[46.341788] (-) TimerEvent: {}
+[46.444224] (-) TimerEvent: {}
+[46.545237] (-) TimerEvent: {}
+[46.647184] (-) TimerEvent: {}
+[46.747958] (-) TimerEvent: {}
+[46.849664] (-) TimerEvent: {}
+[46.952150] (-) TimerEvent: {}
+[47.053111] (-) TimerEvent: {}
+[47.155715] (-) TimerEvent: {}
+[47.256820] (-) TimerEvent: {}
+[47.361143] (-) TimerEvent: {}
+[47.463249] (-) TimerEvent: {}
+[47.565464] (-) TimerEvent: {}
+[47.682103] (-) TimerEvent: {}
+[47.785285] (-) TimerEvent: {}
+[47.887915] (-) TimerEvent: {}
+[47.994818] (-) TimerEvent: {}
+[48.096524] (-) TimerEvent: {}
+[48.200624] (-) TimerEvent: {}
+[48.302530] (-) TimerEvent: {}
+[48.405081] (-) TimerEvent: {}
+[48.507712] (-) TimerEvent: {}
+[48.609488] (-) TimerEvent: {}
+[48.713482] (-) TimerEvent: {}
+[48.815367] (-) TimerEvent: {}
+[48.918448] (-) TimerEvent: {}
+[49.020918] (-) TimerEvent: {}
+[49.123539] (-) TimerEvent: {}
+[49.224763] (-) TimerEvent: {}
+[49.326374] (-) TimerEvent: {}
+[49.427767] (-) TimerEvent: {}
+[49.529348] (-) TimerEvent: {}
+[49.631730] (-) TimerEvent: {}
+[49.734541] (-) TimerEvent: {}
+[49.836896] (-) TimerEvent: {}
+[49.940960] (-) TimerEvent: {}
+[50.043000] (-) TimerEvent: {}
+[50.144402] (-) TimerEvent: {}
+[50.245431] (-) TimerEvent: {}
+[50.347671] (-) TimerEvent: {}
+[50.449067] (-) TimerEvent: {}
+[50.555561] (-) TimerEvent: {}
+[50.657550] (-) TimerEvent: {}
+[50.760672] (-) TimerEvent: {}
+[50.786869] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable Tracker\x1b[0m\n'}
+[50.862371] (-) TimerEvent: {}
+[50.966251] (-) TimerEvent: {}
+[51.070210] (-) TimerEvent: {}
+[51.176204] (-) TimerEvent: {}
+[51.277080] (-) TimerEvent: {}
+[51.379694] (-) TimerEvent: {}
+[51.485990] (-) TimerEvent: {}
+[51.593195] (-) TimerEvent: {}
+[51.696989] (-) TimerEvent: {}
+[51.798444] (-) TimerEvent: {}
+[51.900951] (-) TimerEvent: {}
+[52.003674] (-) TimerEvent: {}
+[52.109727] (-) TimerEvent: {}
+[52.216665] (-) TimerEvent: {}
+[52.320003] (-) TimerEvent: {}
+[52.423434] (-) TimerEvent: {}
+[52.524758] (-) TimerEvent: {}
+[52.635417] (-) TimerEvent: {}
+[52.736365] (-) TimerEvent: {}
+[52.839453] (-) TimerEvent: {}
+[52.952177] (-) TimerEvent: {}
+[53.056498] (-) TimerEvent: {}
+[53.157367] (-) TimerEvent: {}
+[53.258497] (-) TimerEvent: {}
+[53.369070] (-) TimerEvent: {}
+[53.470572] (-) TimerEvent: {}
+[53.571639] (-) TimerEvent: {}
+[53.676284] (-) TimerEvent: {}
+[53.789788] (-) TimerEvent: {}
+[53.890833] (-) TimerEvent: {}
+[53.955624] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 77%] Built target Tracker\n'}
+[53.993183] (-) TimerEvent: {}
+[54.047530] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 81%] Built target Yolo\n'}
+[54.101848] (-) TimerEvent: {}
+[54.115116] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 81%] Built target comp_topic_rclcpp\n'}
+[54.186278] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 82%] Built target comp_topic_rclcpp__py\n'}
+[54.206103] (-) TimerEvent: {}
+[54.275807] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 89%] Built target comp_topic_rclcpp__rosidl_generator_py\n'}
+[54.308164] (-) TimerEvent: {}
+[54.350451] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 93%] Built target comp_topic_rclcpp__rosidl_typesupport_fastrtps_c__pyext\n'}
+[54.410348] (-) TimerEvent: {}
+[54.431149] (comp_topic_rclcpp) StdoutLine: {'line': b'[ 96%] Built target comp_topic_rclcpp__rosidl_typesupport_introspection_c__pyext\n'}
+[54.504471] (comp_topic_rclcpp) StdoutLine: {'line': b'[100%] Built target comp_topic_rclcpp__rosidl_typesupport_c__pyext\n'}
+[54.511828] (-) TimerEvent: {}
+[54.547527] (comp_topic_rclcpp) CommandEnded: {'returncode': 0}
+[54.615681] (-) TimerEvent: {}
+[54.717191] (-) TimerEvent: {}
+[54.819858] (-) TimerEvent: {}
+[54.920902] (-) TimerEvent: {}
+[55.024099] (-) TimerEvent: {}
+[55.072059] (comp_topic_rclcpp) JobProgress: {'identifier': 'comp_topic_rclcpp', 'progress': 'install'}
+[55.118845] (comp_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp'], 'cwd': '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.204.2 64121 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52f4e5f3-9cfd-4e0e-bd91-e6d950decbe8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0dbcad9fb0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp'), ('SSH_CONNECTION', '192.168.204.2 64121 192.168.204.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[55.124628] (-) TimerEvent: {}
+[55.176241] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[55.179256] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/ament_index/resource_index/rosidl_interfaces/comp_topic_rclcpp\n'}
+[55.179661] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp\n'}
+[55.180984] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg\n'}
+[55.181319] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/rosidl_generator_c__visibility_control.h\n'}
+[55.181603] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail\n'}
+[55.181877] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__functions.c\n'}
+[55.182175] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__struct.h\n'}
+[55.182446] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__type_support.h\n'}
+[55.182649] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__functions.h\n'}
+[55.182841] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__functions.c\n'}
+[55.183070] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__type_support.h\n'}
+[55.183267] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__type_support.h\n'}
+[55.183460] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__struct.h\n'}
+[55.183650] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__functions.c\n'}
+[55.183840] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__functions.h\n'}
+[55.191739] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__functions.h\n'}
+[55.192304] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__struct.h\n'}
+[55.192563] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/yolo_result.h\n'}
+[55.192778] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/yolo_piece.h\n'}
+[55.192985] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/tracker_result.h\n'}
+[55.193349] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/library_path.sh\n'}
+[55.193562] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/library_path.dsv\n'}
+[55.193754] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_generator_c.so\n'}
+[55.193945] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp\n'}
+[55.194133] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg\n'}
+[55.198745] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail\n'}
+[55.199001] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__rosidl_typesupport_fastrtps_c.h\n'}
+[55.199349] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__rosidl_typesupport_fastrtps_c.h\n'}
+[55.199542] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__rosidl_typesupport_fastrtps_c.h\n'}
+[55.199730] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[55.199915] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_fastrtps_c.so\n'}
+[55.200100] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp\n'}
+[55.204310] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg\n'}
+[55.204579] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/tracker_result.hpp\n'}
+[55.205037] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail\n'}
+[55.205132] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__builder.hpp\n'}
+[55.205198] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__struct.hpp\n'}
+[55.205252] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__struct.hpp\n'}
+[55.205546] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__traits.hpp\n'}
+[55.205656] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__traits.hpp\n'}
+[55.205752] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__builder.hpp\n'}
+[55.205930] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__builder.hpp\n'}
+[55.208096] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__struct.hpp\n'}
+[55.208681] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__traits.hpp\n'}
+[55.208945] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/yolo_result.hpp\n'}
+[55.209135] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/yolo_piece.hpp\n'}
+[55.211036] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp\n'}
+[55.211506] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg\n'}
+[55.211831] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail\n'}
+[55.212023] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.214683] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/dds_fastrtps\n'}
+[55.216244] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.216590] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.216783] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[55.219293] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.so\n'}
+[55.219526] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp\n'}
+[55.219711] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg\n'}
+[55.219895] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail\n'}
+[55.220568] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__type_support.c\n'}
+[55.220971] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__rosidl_typesupport_introspection_c.h\n'}
+[55.221186] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__rosidl_typesupport_introspection_c.h\n'}
+[55.221377] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__type_support.c\n'}
+[55.221566] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__type_support.c\n'}
+[55.226656] (-) TimerEvent: {}
+[55.235322] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__rosidl_typesupport_introspection_c.h\n'}
+[55.235835] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[55.236051] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_introspection_c.so\n'}
+[55.236243] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_c.so\n'}
+[55.236432] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp\n'}
+[55.239339] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg\n'}
+[55.239650] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail\n'}
+[55.239848] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__type_support.cpp\n'}
+[55.240038] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[55.244199] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__type_support.cpp\n'}
+[55.244575] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/yolo_piece__rosidl_typesupport_introspection_cpp.hpp\n'}
+[55.244821] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[55.245010] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/include/comp_topic_rclcpp/comp_topic_rclcpp/msg/detail/tracker_result__type_support.cpp\n'}
+[55.262780] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_introspection_cpp.so\n'}
+[55.263146] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_typesupport_cpp.so\n'}
+[55.263475] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/pythonpath.sh\n'}
+[55.263756] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/pythonpath.dsv\n'}
+[55.269670] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info\n'}
+[55.270056] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[55.270279] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[55.270642] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[55.270864] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[55.278681] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp\n'}
+[55.278985] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/_comp_topic_rclcpp_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[55.279496] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/libcomp_topic_rclcpp__rosidl_generator_py.so\n'}
+[55.279776] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[55.279992] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/__init__.py\n'}
+[55.282349] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[55.282620] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/_comp_topic_rclcpp_s.ep.rosidl_typesupport_c.c\n'}
+[55.282864] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg\n'}
+[55.283074] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_yolo_piece_s.c\n'}
+[55.283262] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/__init__.py\n'}
+[55.283586] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_tracker_result.py\n'}
+[55.283780] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_yolo_piece.py\n'}
+[55.283960] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_tracker_result_s.c\n'}
+[55.284140] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_yolo_result_s.c\n'}
+[55.288802] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg/_yolo_result.py\n'}
+[55.289221] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/_comp_topic_rclcpp_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[55.289432] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[55.328041] (-) TimerEvent: {}
+[55.427087] (comp_topic_rclcpp) StdoutLine: {'line': b"Listing '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp'...\n"}
+[55.427730] (comp_topic_rclcpp) StdoutLine: {'line': b"Listing '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/msg'...\n"}
+[55.428027] (-) TimerEvent: {}
+[55.442464] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[55.444487] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[55.446475] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/local/lib/python3.10/dist-packages/comp_topic_rclcpp/comp_topic_rclcpp_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[55.446931] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/libcomp_topic_rclcpp__rosidl_generator_py.so\n'}
+[55.448341] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/YoloPiece.idl\n'}
+[55.448827] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/YoloResult.idl\n'}
+[55.449155] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/TrackerResult.idl\n'}
+[55.449362] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/YoloPiece.msg\n'}
+[55.451050] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/YoloResult.msg\n'}
+[55.451458] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/msg/TrackerResult.msg\n'}
+[55.451707] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/CameraTimer\n'}
+[55.451979] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Final\n'}
+[55.455002] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Tracker\n'}
+[55.485248] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Tracker" to ""\n'}
+[55.485903] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Lane\n'}
+[55.489226] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/lib/comp_topic_rclcpp/Yolo\n'}
+[55.490095] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/comp_topic_rclcpp\n'}
+[55.491312] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/comp_topic_rclcpp\n'}
+[55.491578] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/ament_prefix_path.sh\n'}
+[55.491821] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/ament_prefix_path.dsv\n'}
+[55.492044] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/path.sh\n'}
+[55.496757] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/environment/path.dsv\n'}
+[55.497211] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/local_setup.bash\n'}
+[55.497573] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/local_setup.sh\n'}
+[55.497841] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/local_setup.zsh\n'}
+[55.498119] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/local_setup.dsv\n'}
+[55.498350] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/package.dsv\n'}
+[55.498569] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/ament_index/resource_index/packages/comp_topic_rclcpp\n'}
+[55.499260] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_cExport.cmake\n'}
+[55.499716] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_cExport-noconfig.cmake\n'}
+[55.501523] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[55.501991] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[55.506251] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_cppExport.cmake\n'}
+[55.506788] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[55.507186] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[55.509847] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_introspection_cExport.cmake\n'}
+[55.512250] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[55.512531] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_cExport.cmake\n'}
+[55.512725] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[55.514806] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[55.516541] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[55.516935] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_cppExport.cmake\n'}
+[55.517342] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcpp__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[55.521181] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_pyExport.cmake\n'}
+[55.522102] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/export_comp_topic_rclcpp__rosidl_generator_pyExport-noconfig.cmake\n'}
+[55.522446] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/rosidl_cmake-extras.cmake\n'}
+[55.522874] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[55.523450] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[55.523888] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[55.524122] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[55.526106] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[55.526646] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[55.526883] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcppConfig.cmake\n'}
+[55.527183] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/cmake/comp_topic_rclcppConfig-version.cmake\n'}
+[55.527514] (comp_topic_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ros2proj/ComP_demo/ComP_demo_ws/install/comp_topic_rclcpp/share/comp_topic_rclcpp/package.xml\n'}
+[55.530202] (-) TimerEvent: {}
+[55.536013] (comp_topic_rclcpp) CommandEnded: {'returncode': 0}
+[55.633900] (-) TimerEvent: {}
+[55.735531] (-) TimerEvent: {}
+[55.838717] (-) TimerEvent: {}
+[55.944761] (-) TimerEvent: {}
+[56.047681] (-) TimerEvent: {}
+[56.148788] (-) TimerEvent: {}
+[56.224624] (comp_topic_rclcpp) JobEnded: {'identifier': 'comp_topic_rclcpp', 'rc': 0}
+[56.227693] (-) EventReactorShutdown: {}
