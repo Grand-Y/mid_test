@@ -1,5 +1,0 @@
-[  1%] Built target comp_topic_rclcpp__cpp
-[ 10%] Built target comp_topic_rclcpp__rosidl_generator_c
-[ 10%] Built target ament_cmake_python_copy_comp_topic_rclcpp
-[35m[1mConsolidate compiler generated dependencies of target CameraTimer[0m
-[ 12%] [32mBuilding CXX object CMakeFiles/CameraTimer.dir/src/CameraTimer.cpp.o[0m

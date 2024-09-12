@@ -1,1 +1,0 @@
-Invoking command in '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros2proj/ComP_demo/ComP_demo_ws/build/comp_topic_rclcpp -- -j2 -l2

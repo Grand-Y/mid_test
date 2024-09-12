@@ -1,8 +1,0 @@
-[01m[K/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/src/Lane.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcomp_topic_rclcpp/msg/lane_result.hpp: No such file or directory
-    3 | #include [01;31m[K"comp_topic_rclcpp/msg/lane_result.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/Lane.dir/build.make:76: CMakeFiles/Lane.dir/src/Lane.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:680: CMakeFiles/Lane.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

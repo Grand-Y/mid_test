@@ -1,4 +1,0 @@
-source;share/comp_topic_rclcpp/local_setup.bash
-source;share/comp_topic_rclcpp/local_setup.dsv
-source;share/comp_topic_rclcpp/local_setup.sh
-source;share/comp_topic_rclcpp/local_setup.zsh

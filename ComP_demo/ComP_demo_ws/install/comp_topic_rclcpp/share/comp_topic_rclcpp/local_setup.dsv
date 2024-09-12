@@ -1,4 +1,0 @@
-source;share/comp_topic_rclcpp/environment/ament_prefix_path.sh
-source;share/comp_topic_rclcpp/environment/library_path.sh
-source;share/comp_topic_rclcpp/environment/path.sh
-source;share/comp_topic_rclcpp/environment/pythonpath.sh
