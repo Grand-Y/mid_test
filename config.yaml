@@ -1,6 +1,8 @@
-midware: cyber
+midware: ros2
+# midware: cyber
 
-workspace: '/apollo/cyber/a_mid_test'
-data_path: '/apollo/cyber/a_mid_test/data/camera/800-1/front'
-log_path: '/apollo/cyber/a_mid_test/cyber/logs'
-output_path: '/apollo/cyber/a_mid_test/cyber/output'
+workspace: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws'
+data_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/data/camera'
+log_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/logs'
+output_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/output'
+model_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/resources/yolov5s.onnx'
