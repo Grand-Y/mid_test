@@ -17,6 +17,9 @@ public:
         model_path_env = std::getenv("MODEL_PATH");
         log_path = std::string(log_path_env);  // 使用从环境变量中获取的路径
 
+        rclcpp::QoS qos_settings(rclcpp::KeepLast(200));  // 设置队列大小为200
+        qos_settings.reliable();  // 设置可靠传输
+
         // 创建图像发布者，用于发布处理后的图像
         yolo_image_publisher = this->create_publisher<sensor_msgs::msg::Image>("YoloProcessedImage", 10);
 
@@ -25,7 +28,7 @@ public:
 
         // 创建订阅CameraTimer发布的图像消息的订阅者
         cameratimer_topic_subscription = this->create_subscription<sensor_msgs::msg::Image>(
-            "CameraTimerImage", 10, std::bind(&Yolo::cameratimer_topic_callback, this, std::placeholders::_1));
+            "CameraTimerImage", qos_settings, std::bind(&Yolo::cameratimer_topic_callback, this, std::placeholders::_1));
 
         // 初始化日志文件
         initialize_log_file("tra_Yolo_CameraTimerImage");
@@ -101,6 +104,7 @@ private:
     // 订阅消息回调函数：处理图像消息并记录延迟
     void cameratimer_topic_callback(const sensor_msgs::msg::Image::SharedPtr msg)
     {
+        
         RCLCPP_INFO(this->get_logger(), "Yolo订阅收到 CameraTimer 发布的图像");
 
         // 记录消息传输延迟

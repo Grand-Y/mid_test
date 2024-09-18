@@ -73,7 +73,7 @@ def main():
             while True:
                 if os.path.exists(flag_path):
                     time.sleep(10)
-                    print("Flag path detected. Terminating ROS2 process...")
+                    print("Flag path detected. Waiting and Terminating ROS2 process...")
                     process.send_signal(signal.SIGINT)   # 终止进程
                     process.wait()  # 等待进程完全终止
                     # 判断是文件还是目录并进行相应的删除
@@ -87,7 +87,8 @@ def main():
             print("Process interrupted by user.")
             process.terminate()
             process.wait()
-        
+
+        time.sleep(260)
         os.chdir(script_dir)
 
 
@@ -115,7 +116,9 @@ def main():
     else:
         print(f'No action taken for midware: {midware}')
 
+    
     # 调用 draw.py 脚本进行绘图
+    print("Strating drawing...")
     command = 'python ./tools/draw.py'
     subprocess.run(command, shell=True)
 

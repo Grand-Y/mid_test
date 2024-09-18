@@ -21,17 +21,20 @@ public:
         initialize_log_file("YoloDetectionResults");
         initialize_log_file("TrackerResults");
 
+        rclcpp::QoS qos_settings(rclcpp::KeepLast(200));  // 设置队列大小为200
+        qos_settings.reliable();  // 设置可靠传输
+
         // 创建订阅者，订阅Lane节点发布的车道线检测结果
         lane_result_subscription_ = this->create_subscription<comp_topic_rclcpp::msg::LaneResult>(
-            "LaneDetectionResults", 10, std::bind(&Final::lane_result_callback, this, std::placeholders::_1));
+            "LaneDetectionResults", qos_settings, std::bind(&Final::lane_result_callback, this, std::placeholders::_1));
 
         // 创建订阅者，订阅Yolo节点发布的检测结果
         yolo_result_subscription_ = this->create_subscription<comp_topic_rclcpp::msg::YoloResult>(
-            "YoloDetectionResults", 10, std::bind(&Final::yolo_result_callback, this, std::placeholders::_1));
+            "YoloDetectionResults", qos_settings, std::bind(&Final::yolo_result_callback, this, std::placeholders::_1));
 
         // 创建订阅者，订阅Tracker节点发布的追踪结果
         tracker_result_subscription_ = this->create_subscription<comp_topic_rclcpp::msg::TrackerResult>(
-            "TrackerResults", 10, std::bind(&Final::tracker_result_callback, this, std::placeholders::_1));
+            "TrackerResults", qos_settings, std::bind(&Final::tracker_result_callback, this, std::placeholders::_1));
     }
 
 private:

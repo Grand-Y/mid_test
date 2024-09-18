@@ -18,14 +18,16 @@ public:
         log_path_env = std::getenv("LOG_PATH");
         log_path = std::string(log_path_env);  // 使用从环境变量中获取的路径
 
+        rclcpp::QoS qos_settings(rclcpp::KeepLast(200));  // 设置队列大小为200
+        qos_settings.reliable();  // 设置可靠传输
 
         // 创建订阅者，订阅CameraTimer发布的图像
         image_subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
-            "CameraTimerImage", 10, std::bind(&Tracker::image_callback, this, std::placeholders::_1));
+            "CameraTimerImage", qos_settings, std::bind(&Tracker::image_callback, this, std::placeholders::_1));
 
         // 创建订阅者，订阅Yolo发布的检测结果
         yolo_result_subscription_ = this->create_subscription<comp_topic_rclcpp::msg::YoloResult>(
-            "YoloDetectionResults", 10, std::bind(&Tracker::yolo_result_callback, this, std::placeholders::_1));
+            "YoloDetectionResults", qos_settings, std::bind(&Tracker::yolo_result_callback, this, std::placeholders::_1));
 
         // 创建发布者，用于发布追踪结果
         tracker_result_publisher_ = this->create_publisher<comp_topic_rclcpp::msg::TrackerResult>("TrackerResults", 10);
