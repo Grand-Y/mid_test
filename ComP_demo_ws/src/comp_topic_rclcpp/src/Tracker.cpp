@@ -32,9 +32,6 @@ public:
         // 创建发布者，用于发布追踪结果
         tracker_result_publisher_ = this->create_publisher<comp_topic_rclcpp::msg::TrackerResult>("TrackerResults", 10);
 
-        // 创建发布者，用于发布原始相机图像
-        raw_image_publisher_ = this->create_publisher<sensor_msgs::msg::Image>("TrackerRawImage", 10);
-
         // 初始化日志文件
         initialize_log_file("tra_Tracker_CameraTimerImage");
         initialize_log_file("tra_Tracker_YoloDetectionResults");
@@ -42,9 +39,14 @@ public:
     }
 
 private:
-
     const char* log_path_env;
     std::string log_path;
+
+    std::vector<cv::Ptr<cv::Tracker>> trackers_;
+    bool tracking_initialized_;
+    bool yolo_result_received_;
+    cv::Mat frame_;  // 用于保存当前帧图像
+    sensor_msgs::msg::Image::SharedPtr latest_image_msg_; // 保存最新的图像消息
 
     // 初始化日志文件
     void initialize_log_file(const std::string &log_name)
@@ -53,7 +55,6 @@ private:
         std::ofstream ofs(log_file, std::ios_base::trunc);  // 清空文件
         if (ofs.is_open())
         {
-            // ofs << "Log initialized for: " << log_name << std::endl;
             ofs.close();
         }
         else
@@ -122,6 +123,8 @@ private:
         }
 
         bool tracking_success = false; // 用于跟踪是否成功追踪目标
+        auto aggregated_result = comp_topic_rclcpp::msg::TrackerResult(); // 聚合多个目标的追踪结果
+        aggregated_result.header.stamp = this->now();
 
         if (tracking_initialized_)
         {
@@ -132,24 +135,22 @@ private:
                 bool ok = trackers_[i]->update(frame_, bbox);
                 if (ok)
                 {
-                    cv::rectangle(frame_, bbox, cv::Scalar(255, 0, 0), 2, 1);
-
-                    // 创建TrackerResult消息并发布
-                    auto tracker_result_msg = comp_topic_rclcpp::msg::TrackerResult();
-                    tracker_result_msg.header.stamp = this->now();
-                    tracker_result_msg.x = bbox.x;
-                    tracker_result_msg.y = bbox.y;
-                    tracker_result_msg.width = bbox.width;
-                    tracker_result_msg.height = bbox.height;
-
-                    tracker_result_publisher_->publish(tracker_result_msg);
+                    // 聚合所有目标的跟踪信息
+                    aggregated_result.x.push_back(bbox.x);
+                    aggregated_result.y.push_back(bbox.y);
+                    aggregated_result.width.push_back(bbox.width);
+                    aggregated_result.height.push_back(bbox.height);
                     tracking_success = true; // 成功追踪
                 }
             }
         }
 
-        // 如果没有成功追踪到任何目标，发布原始图像
-        if (!tracking_success)
+        if (tracking_success)
+        {
+            // 仅发布一次聚合后的追踪结果
+            tracker_result_publisher_->publish(aggregated_result);
+        }
+        else
         {
             RCLCPP_WARN(this->get_logger(), "没有成功追踪目标，发布原始相机图像");
             raw_image_publisher_->publish(*latest_image_msg_); // 发布最新的原始图像
@@ -222,13 +223,6 @@ private:
     rclcpp::Subscription<comp_topic_rclcpp::msg::YoloResult>::SharedPtr yolo_result_subscription_;
     rclcpp::Publisher<comp_topic_rclcpp::msg::TrackerResult>::SharedPtr tracker_result_publisher_;
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr raw_image_publisher_;  // 用于发布原始图像
-
-    // 追踪器相关
-    std::vector<cv::Ptr<cv::Tracker>> trackers_;
-    bool tracking_initialized_;
-    bool yolo_result_received_; // 标记是否收到Yolo检测结果
-    cv::Mat frame_;  // 用于保存当前帧图像
-    sensor_msgs::msg::Image::SharedPtr latest_image_msg_; // 保存最新的图像消息
 };
 
 int main(int argc, char *argv[])

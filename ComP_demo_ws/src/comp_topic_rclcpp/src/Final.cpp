@@ -45,11 +45,9 @@ private:
         std::string log_path(log_path_env);
         std::string log_file = log_path + "/tra_Final_" + topic_name + ".log";
 
-        // 以覆盖模式清空日志文件
         std::ofstream ofs(log_file, std::ios_base::trunc);
         if (ofs.is_open())
         {
-            // ofs << "Log initialized for topic: " << topic_name << std::endl;
             ofs.close();
         }
         else
@@ -58,24 +56,19 @@ private:
         }
     }
 
-    // 通用函数：记录传输延迟到日志
+    // 记录传输延迟到日志
     void log_tra_latency(const std::string &topic_name, const rclcpp::Time &msg_time)
     {
         auto now = this->get_clock()->now();
         auto latency_ns = now.nanoseconds() - msg_time.nanoseconds();  // 计算延迟时间（纳秒）
         const char* log_path_env = std::getenv("LOG_PATH");
-        // if (log_path_env == nullptr){
-        //     RCLCPP_ERROR(this->get_logger(), "环境变量LOG_PATH未设置"); 
-        //     return;       }
-        // }
         std::string log_path(log_path_env);
         std::string log_file = log_path + "/tra_Final_" + topic_name + ".log";
 
-        // 以追加模式写入日志文件
         std::ofstream ofs(log_file, std::ios_base::app);
         if (ofs.is_open())
         {
-            ofs << latency_ns / 1e3 << std::endl;  // 记录以微秒为单位的延迟
+            ofs << latency_ns / 1e3 << std::endl;  // 只记录延迟时间，不加单位
             ofs.close();
         }
         else
@@ -88,7 +81,7 @@ private:
     void lane_result_callback(const comp_topic_rclcpp::msg::LaneResult::SharedPtr msg)
     {
         RCLCPP_INFO(this->get_logger(), "Final节点订阅到 Lane 的车道线检测结果");
-        
+
         // 记录传输延迟
         log_tra_latency("LaneDetectionResults", msg->header.stamp);
 
@@ -117,11 +110,17 @@ private:
     // 回调函数：处理Tracker节点发布的追踪结果
     void tracker_result_callback(const comp_topic_rclcpp::msg::TrackerResult::SharedPtr msg)
     {
-        RCLCPP_INFO(this->get_logger(), "Final节点订阅到 Tracker 的追踪结果: x = %.2f, y = %.2f, width = %.2f, height = %.2f",
-                    msg->x, msg->y, msg->width, msg->height);
+        RCLCPP_INFO(this->get_logger(), "Final节点订阅到 Tracker 的追踪结果.");
 
         // 记录传输延迟
         log_tra_latency("TrackerResults", msg->header.stamp);
+
+        // 打印所有目标的追踪信息
+        for (size_t i = 0; i < msg->x.size(); ++i)
+        {
+            RCLCPP_INFO(this->get_logger(), "目标 %zu: x = %.2f, y = %.2f, width = %.2f, height = %.2f", 
+                        i, msg->x[i], msg->y[i], msg->width[i], msg->height[i]);
+        }
     }
 
     // 订阅者
