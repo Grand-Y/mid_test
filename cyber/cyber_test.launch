@@ -1,0 +1,7 @@
+<cyber>
+    <module>
+        <name>cyber_test</name>
+        <dag_conf>/apollo/cyber/a_mid_test/cyber/cyber_test.dag</dag_conf>
+        <process_name>cyber_test</process_name>
+    </module>
+</cyber>

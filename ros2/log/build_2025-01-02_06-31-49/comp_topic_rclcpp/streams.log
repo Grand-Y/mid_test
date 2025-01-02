@@ -1,0 +1,5 @@
+[0.009s] Invoking command in '/ros2/a_mid_test/ros2/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2/a_mid_test/ros2/build/comp_topic_rclcpp -- -j20 -l20
+[0.023s] [0mCMake Error: The source directory "/ros2/a_mid_test/ComP_demo_ws/src/comp_topic_rclcpp" does not exist.
+[0.023s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.023s] gmake: *** [Makefile:1843: cmake_check_build_system] Error 1
+[0.024s] Invoked command in '/ros2/a_mid_test/ros2/build/comp_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2/a_mid_test/ros2/build/comp_topic_rclcpp -- -j20 -l20

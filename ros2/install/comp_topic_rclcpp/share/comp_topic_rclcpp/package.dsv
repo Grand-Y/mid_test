@@ -1,0 +1,11 @@
+source;share/comp_topic_rclcpp/hook/cmake_prefix_path.ps1
+source;share/comp_topic_rclcpp/hook/cmake_prefix_path.dsv
+source;share/comp_topic_rclcpp/hook/cmake_prefix_path.sh
+source;share/comp_topic_rclcpp/hook/ld_library_path_lib.ps1
+source;share/comp_topic_rclcpp/hook/ld_library_path_lib.dsv
+source;share/comp_topic_rclcpp/hook/ld_library_path_lib.sh
+source;share/comp_topic_rclcpp/local_setup.bash
+source;share/comp_topic_rclcpp/local_setup.dsv
+source;share/comp_topic_rclcpp/local_setup.ps1
+source;share/comp_topic_rclcpp/local_setup.sh
+source;share/comp_topic_rclcpp/local_setup.zsh

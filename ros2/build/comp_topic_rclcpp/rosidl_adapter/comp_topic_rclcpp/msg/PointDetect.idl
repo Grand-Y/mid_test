@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from comp_topic_rclcpp/msg/PointDetect.msg
+// generated code does not contain a copyright notice
+
+
+module comp_topic_rclcpp {
+  module msg {
+    struct PointDetect {
+      int32 x;
+
+      int32 y;
+    };
+  };
+};

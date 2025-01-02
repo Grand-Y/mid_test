@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /ros2/a_mid_test/ros2/build/comp_topic_rclcpp/CMakeCache.txt is different than the directory /ros2/a_mid_test/ComP_demo_ws/build/comp_topic_rclcpp where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/ros2/a_mid_test/ComP_demo_ws/src/comp_topic_rclcpp" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:1843: cmake_check_build_system] Error 1

@@ -1,0 +1,5 @@
+/ros2/a_mid_test/ros2/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp:msg/YoloPiece.idl
+/ros2/a_mid_test/ros2/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp:msg/YoloResult.idl
+/ros2/a_mid_test/ros2/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp:msg/TrackerResult.idl
+/ros2/a_mid_test/ros2/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp:msg/LaneResult.idl
+/ros2/a_mid_test/ros2/build/comp_topic_rclcpp/rosidl_adapter/comp_topic_rclcpp:msg/PointDetect.idl

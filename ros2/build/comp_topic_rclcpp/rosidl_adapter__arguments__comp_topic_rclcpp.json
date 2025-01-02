@@ -1,0 +1,10 @@
+{
+  "package_name": "comp_topic_rclcpp",
+  "non_idl_tuples": [
+    "/ros2/a_mid_test/ros2/src/comp_topic_rclcpp:msg/YoloPiece.msg",
+    "/ros2/a_mid_test/ros2/src/comp_topic_rclcpp:msg/YoloResult.msg",
+    "/ros2/a_mid_test/ros2/src/comp_topic_rclcpp:msg/TrackerResult.msg",
+    "/ros2/a_mid_test/ros2/src/comp_topic_rclcpp:msg/LaneResult.msg",
+    "/ros2/a_mid_test/ros2/src/comp_topic_rclcpp:msg/PointDetect.msg"
+  ]
+}

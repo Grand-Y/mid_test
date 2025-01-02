@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/lane_result__type_support.cpp.o"
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/lane_result__type_support.cpp.o.d"
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/point_detect__type_support.cpp.o"
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/point_detect__type_support.cpp.o.d"
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/tracker_result__type_support.cpp.o"
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/tracker_result__type_support.cpp.o.d"
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/yolo_piece__type_support.cpp.o"
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/yolo_piece__type_support.cpp.o.d"
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/yolo_result__type_support.cpp.o"
+  "CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/yolo_result__type_support.cpp.o.d"
+  "libcomp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libcomp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/lane_result__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/point_detect__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/tracker_result__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/yolo_piece__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/dds_fastrtps/yolo_result__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/lane_result__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/point_detect__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/tracker_result__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/yolo_piece__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/comp_topic_rclcpp/msg/detail/yolo_result__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/comp_topic_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,2 @@
+Invoking command in '/ros2/a_mid_test/ros2/build/comp_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2/a_mid_test/ros2/build/comp_topic_rclcpp -- -j20 -l20
+Invoked command in '/ros2/a_mid_test/ros2/build/comp_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2/a_mid_test/ros2/build/comp_topic_rclcpp -- -j20 -l20

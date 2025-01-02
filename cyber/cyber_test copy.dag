@@ -1,0 +1,47 @@
+# Define all coms in DAG streaming.
+    module_config {
+        module_library : "/apollo/bazel-bin/cyber/a_mid_test/cyber/perception/libcyber_test_perception.so"
+        timer_components{
+            class_name:"CameraTimer"
+            config{
+                name:"CameraTimer"
+                interval:100
+            }
+        }   
+        components {
+            class_name : "LaneComponent"
+            config {
+                name : "LaneComponent"
+                readers {
+                    channel: "CameraTimer"
+                }
+            }
+        }
+        components {
+            class_name : "n1"
+            config {
+                name : "n1"
+                readers {
+                    channel: "/apollo/camera"
+                }
+                readers {
+                    channel: "/apollo/lidar"
+                }
+                readers {
+                    channel: "/apollo/imu"
+                }
+            }
+        }
+    }
+    module_config {
+        module_library : "/apollo/bazel-bin/cyber/a_mid_test/cyber/localization/libcyber_test_localization.so"
+        components {
+            class_name : "n2"
+            config {
+                name : "n2"
+                readers {
+                    channel: "/apollo/n2"
+                }
+            }
+        }
+    }

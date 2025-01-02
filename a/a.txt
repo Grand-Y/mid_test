@@ -1,0 +1,42 @@
+export GLOG_alsologtostderr=1
+
+cyber_launch start /apollo/cyber/a_mid_test/cyber/cyber_test.launch
+
+bazel-bin/cyber/examples/common_component_example/channel_radar_writer
+/apollo/bazel-bin/cyber/examples/common_component_example/channel_prediction_writer
+/apollo/bazel-bin/cyber/examples/common_component_example/channel_test_writer
+
+export WORKSPACE='/apollo/cyber/a_mid_test'
+export DATA_PATH='/apollo/cyber/a_mid_test/data/camera/800-1/front'
+export LOG_PATH='/apollo/cyber/a_mid_test/cyber/logs'
+export OUTPUT_PATH='/apollo/cyber/a_mid_test/cyber/output'
+
+帮我用python完成一个画图的程序，要求如下：
+我的日志目录是/apollo/cyber/a_mid_test/cyber/logs，输出目录是/apollo/cyber/a_mid_test/cyber/output
+日志目录下的日志文件有两种，分别由cal开头和tra开头，具体格式分别是cal_name和tra_name_i，并且每个文件的数据都是一行一个数字
+对于cal开头的文件，只需要为每个文件画出一张同名的折线图即可。
+对于tra开头的文件，可能存在相同name的情况。如果只有一个name，就正常画图。如果有多个相同name，则把多个文件的数据画在一张图中。
+所有文件中数字的单位都是纳秒，我需要你把它变成毫秒。
+每张图的图像框右侧，需要增加一些数据的指标：
+titles_text = (
+    f'Average:\n'
+    f'Min:\n'
+    f'Max:\n'
+    f'Std Dev:\n'
+    f'Median:\n'
+    f'90%:\n'
+    f'95%:\n'
+    f'99%:'
+)
+
+values_text = (
+    f'{mean_value:0.6f} ms\n'
+    f'{min_value:0.6f} ms\n'
+    f'{max_value:02.6f} ms\n'
+    f'{std_dev:0.6f} ms\n'
+    f'{median_value:0.6f} ms\n'
+    f'{perc_90:0.6f} ms\n'
+    f'{perc_95:0.6f} ms\n'
+    f'{perc_99:0.6f} ms'
+)
+如果有多个tra文件有相同的name，则每个文件的这些指标都需要标注在图像框右侧

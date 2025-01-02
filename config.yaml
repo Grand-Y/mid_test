@@ -1,0 +1,8 @@
+midware: ros2
+# midware: cyber
+
+workspace: '/ros2/a_mid_test/ros2'
+data_path: '/ros2/a_mid_test/a_data/camera/800-1/front'
+log_path: '/ros2/logs'
+output_path: '/ros2/output'
+model_path: '/ros2/a_mid_test/ros2/src/comp_topic_rclcpp/resources/yolov5s.onnx'
