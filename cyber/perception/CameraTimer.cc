@@ -4,6 +4,7 @@
 #include <fstream>
 #include <iostream>
 #include <thread>
+#include <cstdlib>
 #include <opencv2/opencv.hpp>
 #include "cyber/class_loader/class_loader.h"
 #include "cyber/component/component.h"
@@ -38,6 +39,7 @@ class CameraTimer : public TimerComponent {
 
 			glob_t glob_result;
 			glob((data_path + "/*.png").c_str(), GLOB_TILDE, nullptr, &glob_result);
+			AINFO << data_path;
 			for (unsigned int i = 0; i < glob_result.gl_pathc; ++i) {
 				image_paths.push_back(std::string(glob_result.gl_pathv[i]));
 			}

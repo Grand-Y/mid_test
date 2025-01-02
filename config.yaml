@@ -1,8 +1,8 @@
 midware: ros2
 # midware: cyber
 
-workspace: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws'
-data_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/data/camera'
-log_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/logs'
-output_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/output'
-model_path: '/home/ros/ros2proj/ComP_demo/ComP_demo_ws/src/comp_topic_rclcpp/resources/yolov5s.onnx'
+workspace: '/ros2/a_mid_test/ros2'
+data_path: '/ros2/a_mid_test/a_data/camera/800-1/front'
+log_path: '/ros2/logs'
+output_path: '/ros2/output'
+model_path: '/ros2/a_mid_test/ros2/src/comp_topic_rclcpp/resources/yolov5s.onnx'

@@ -1,6 +1,11 @@
 syntax = "proto2";
 
 package apollo.cyber.a_mid_test.cyber;
+
+message BaseString {
+    required uint64 timestamp = 1;
+    required string str = 2;
+}
 message OcvMat {
     required int32 rows = 1;
     required int32 cols = 2;

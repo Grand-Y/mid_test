@@ -3,17 +3,25 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 日志目录和输出目录
-log_dir = os.getenv("LOG_PATH")
-output_dir = os.getenv("OUTPUT_PATH")
+log_path = os.getenv("LOG_PATH")
+output_path = os.getenv("OUTPUT_PATH")
+
+# log_path = '/apollo/cyber/a_mid_test/cyber/logs'
+# output_path = '/apollo/cyber/a_mid_test/cyber/output'
+
 
 # 确保输出目录存在
-os.makedirs(output_dir, exist_ok=True)
+os.makedirs(output_path, exist_ok=True)
 
 # 处理 cal 开头的文件
 def process_cal_file(file_path, file_name):
     data = np.loadtxt(file_path) / 1e6  # 纳秒转毫秒
     plt.figure(figsize=(10, 6))
     plt.plot(data)
+
+    # y_min, y_max = plt.ylim()
+    # plt.ylim(y_min, y_max + (y_max - y_min) / 20)
+    
     plt.title(file_name)
     plt.xlabel('Index')
     plt.ylabel('Time (ms)')
@@ -53,8 +61,9 @@ def process_cal_file(file_path, file_name):
     plt.annotate(titles_text, xy=(1.05, 1), xycoords='axes fraction', verticalalignment='top', bbox=dict(facecolor='white', alpha=0.0))
     plt.annotate(values_text, xy=(1.2, 1), xycoords='axes fraction', verticalalignment='top', bbox=dict(facecolor='white', alpha=0.0))
    
+    plt.legend(loc=1)
     plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, f'{file_name}.png'))
+    plt.savefig(os.path.join(output_path, f'{file_name}.png'))
     plt.close()
 
 # 处理 tra 开头的文件
@@ -65,6 +74,9 @@ def process_tra_files(file_paths, base_name):
     for file_path in file_paths:
         data = np.loadtxt(file_path) / 1e6  # 纳秒转毫秒
         plt.plot(data, label=os.path.basename(file_path))
+        y_min, y_max = plt.ylim()
+        print(y_min, y_max)
+        plt.ylim(y_min, y_max + (y_max - y_min) / 20)
         
         # 计算统计指标
         mean_value = np.mean(data)
@@ -103,17 +115,20 @@ def process_tra_files(file_paths, base_name):
         plt.annotate(titles_text, xy=(1.05, 1 + 2 * n), xycoords='axes fraction', verticalalignment='top', bbox=dict(facecolor='white', alpha=0.0))
         plt.annotate(values_text, xy=(1.2, 1 + 2 * n), xycoords='axes fraction', verticalalignment='top', bbox=dict(facecolor='white', alpha=0.0))
         n -= 0.16
+        # plt.annotate(titles_text, xy=(0.98, 0.98), xycoords='axes fraction', verticalalignment='top', horizontalalignment='right', bbox=dict(facecolor='white', alpha=0.5))
+        # plt.annotate(values_text, xy=(1.15, 0.98), xycoords='axes fraction', verticalalignment='top', horizontalalignment='right', bbox=dict(facecolor='white', alpha=0.5))
+ 
 
     plt.title(base_name)
     plt.xlabel('Index')
     plt.ylabel('Time (ms)')
-    plt.legend()
+    plt.legend(loc=1)
     plt.tight_layout()
-    plt.savefig(os.path.join(output_dir, f'{base_name}.png'))
+    plt.savefig(os.path.join(output_path, f'{base_name}.png'))
     plt.close()
 
 # 遍历日志目录
-for root, dirs, files in os.walk(log_dir):
+for root, dirs, files in os.walk(log_path):
     tra_files = {}
     
     for file in files:

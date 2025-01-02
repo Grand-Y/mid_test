@@ -23,6 +23,8 @@ private:
     std::vector<std::vector<uint64_t>> tra_latency;
     std::vector<uint64_t> cal_latency;
 
+    std::vector<std::string> logs = {"Frame"};
+
     ~YoloComponent() {
         AINFO << component_name << " destoryed";
         write_logs();
@@ -30,15 +32,14 @@ private:
     }
 
     void write_logs() {
-        AINFO << component_name << " start writing logs";
+        std::string log_path = std::string(std::getenv("LOG_PATH"));
+        AINFO << component_name << " start writing logs, log_path: " << log_path;
         AINFO << component_name << " tra_log num: " << tra_latency[0].size();
         AINFO << component_name << " cal_log num: " << cal_latency.size();
 
-        std::string log_path = std::string(std::getenv("LOG_PATH"));
-
         // 写入延迟日志
         for (size_t i = 0; i < tra_latency.size(); i ++ ) {
-            ofs.open(log_path + "/tra_" + component_name + "_" + std::to_string(i), std::ios::trunc);
+            ofs.open(log_path + "/tra_" + component_name + "_" + logs[i], std::ios::trunc);
             for (size_t j = 0; j < tra_latency[i].size(); j ++ )
                 ofs << tra_latency[i][j] << std::endl;
             ofs.close();

@@ -61,9 +61,12 @@ def main():
             shutil.rmtree(flag_path)  # 如果是目录，递归删除目录
 
         # 构建要执行的命令，激活 ROS2 和 Conda 环境，然后执行 run_demo.sh 脚本
+        # command = 'source /opt/ros/humble/setup.bash && ' \
+        #           'source /home/ros/miniconda3/etc/profile.d/conda.sh && ' \
+        #           'conda activate ros2 && ./run_demo.sh'
+
         command = 'source /opt/ros/humble/setup.bash && ' \
-                  'source /home/ros/miniconda3/etc/profile.d/conda.sh && ' \
-                  'conda activate ros2 && ./run_demo.sh'
+                    '/ros2/a_mid_test/ros2/run_demo.sh'
 
         # 使用 /bin/bash 执行命令
         process = subprocess.Popen(command, shell=True, executable='/bin/bash')
@@ -88,7 +91,7 @@ def main():
             process.terminate()
             process.wait()
 
-        time.sleep(260)
+        time.sleep(2)
         os.chdir(script_dir)
 
 
@@ -119,7 +122,7 @@ def main():
     
     # 调用 draw.py 脚本进行绘图
     print("Strating drawing...")
-    command = 'python ./tools/draw.py'
+    command = 'python3 ./tools/draw.py'
     subprocess.run(command, shell=True)
 
 if __name__ == '__main__':

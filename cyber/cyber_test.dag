@@ -5,7 +5,7 @@
             class_name:"CameraTimer"
             config{
                 name:"CameraTimer"
-                interval:300
+                interval:200
             }
         }
         components {
